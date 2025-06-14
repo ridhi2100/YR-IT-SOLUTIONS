@@ -1,0 +1,122 @@
+/* Services.css */
+
+/* Hero Section */
+.image-section {
+  width: 566px;
+  height: 439px;
+
+}
+
+.main-div {
+  align-items: center;
+}
+
+/* Services Section */
+.section-service {
+  background-color: #4F45EB;
+}
+
+/* Testimonials Section */
+.custom-shadow {
+  box-shadow: 0 4px 6px -4px rgba(181, 101, 118, 100);
+  box-shadow: 0 4px 6px -4px green;
+  box-shadow: 0 13px 33px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+}
+
+.custom-box1 {
+  width: 500px;
+  height: 560px;
+}
+
+.custom-box2 {
+  width: 500px;
+  height: 320px;
+}
+
+.text-box {
+  text-align: justify;
+}
+
+.head-left-img {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+  color: #060336;
+}
+
+.head-left-img2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+  color: #060336;
+}
+
+.head-left-img3 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+  color: #060336;
+}
+
+.left-head-img01 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+@media (max-width: 500px) {
+  .head-left-img3 {
+    margin-top: 10px;
+    font-size: 28px;
+    line-height: 29.6px;
+  }
+  .head-left-img{
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 29.6px;
+      text-align: left;
+      color: #060336;
+    }
+
+  .head-left-img2{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 29.6px;
+    text-align: left;
+    color: #060336;
+  }
+  .left-head-img01 {
+    font-size: 15px;
+    line-height: 25px;
+
+  }
+}
+
+.head-left-img>p {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 57.6px;
+  text-align: left;
+  color: #060336;
+}
+
+.testi-box {
+  /* background-color: red; */
+  box-shadow: 0 13px 0 33px 0 rgba(0, 0, 0, 0.25);
+}
+
+.testi-text-color {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  text-align: center;
+
+}

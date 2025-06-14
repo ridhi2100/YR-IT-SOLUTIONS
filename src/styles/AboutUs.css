@@ -1,0 +1,104 @@
+.About-sub1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #6A6A6A;
+}
+
+.About-sub-h {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 76.8px;
+    text-align: left;
+}
+
+.About-sub4 {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    color: #6A6A6A
+}
+
+.About-sub43 {
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #6A6A6A
+}
+
+.About-sub55 {
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 80px;
+    text-align: center;
+
+}
+
+.About-sub-56 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 15px;
+    color: rgba(106, 106, 106, 0.5);
+}
+
+.About-box-54 {
+    border: solid 1px rgba(106, 106, 106, 0.5);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    height: 160px;
+    width: 280px;
+}
+
+.About-box-border {
+    border: solid 1px rgba(106, 106, 106, 0.5);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media ( max-width : 630px ) {
+    .About-sub-h {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.8px;
+        text-align: left;
+    }
+    .About-sub4{
+        font-size:17px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+    }
+}
+
+
+@media ( max-width : 900px ) {
+    .animatedstats-main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+
+@media ( max-width : 600px ) {
+    .animatedstats-main {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .card-heading-aboutus{
+        line-height: 28px;;
+        font-size: 27px;
+    }
+    
+.About-sub43 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    color: #6A6A6A
+}
+}

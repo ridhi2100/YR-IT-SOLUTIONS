@@ -1,0 +1,38 @@
+.home-search-main {
+    box-shadow: 10px 12px 27px 0px rgba(0, 0, 0, 0.1);
+}
+
+.home-sub-head {
+    line-height: 76.8px;
+}
+
+
+@media (min-width: 1536px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 640px) {}
+@media (max-width: 640px) {
+    .home-sub-head{
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .button-home{
+        font-size: 14px;
+    }
+}
+
+/* 
+@media (min-width: 1536px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 640px) {} */

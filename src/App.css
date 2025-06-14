@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+  background-color: #F7F6FF;
+  ;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+:root{
+  --theme:#4F45EB;
+  --bgc:#F7F6FF;
+}
+.btn{
+  background-color: var(--theme);
+  color:var(--bgc);
+  border-radius:6px;
+  display: flex;
+  justify-content: center; 
+  justify-items: center;
+  align-items: center;
+}
+.radius{
+  border-radius: 6px;
+}
+.color{
+  color: var(--theme);
+}
+.active-color{
+  color: var(--theme);
+}
+.textsize{
+  font-size:16px;
+}
+.heading{
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59.52px;
+  text-align: center;
+  width:100%;
+}
+.cursor{
+  cursor: pointer;
+}
+
+
+@media (min-width: 1536px) {}
+
+@media (min-width: 1024px) {}
+
+@media (min-width: 1280px) {}
+
+@media (min-width: 768px) {}
+
+@media screen and (max-width: 640px) {
+
+.heading{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 59.52px;
+  text-align: center;
+  width:100%;
+}
+  .smtext{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.36px;
+  }
+  .smtext2{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .btn{
+    font-size: 14px;
+    height:3rem;
+    width:fit-content;
+    padding:0px 1rem;
+  }
+  .pricingM-btn2{
+    font-size: 14px;
+    height:3rem;
+    width:fit-content;
+    padding:0px 1rem;
+  }
+  
+}
+
