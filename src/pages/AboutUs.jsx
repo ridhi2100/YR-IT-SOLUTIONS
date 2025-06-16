@@ -18,23 +18,23 @@ import { Link } from 'react-router-dom'
 const AboutUs = () => {
     const data = [
         {
-            title: "commitment",
-            description: "We are truly committed to going above and beyond traditional working scenarios. This ensures excellent growth and maximized ROI.",
+            title: "Commitment",
+            description: "We go the extra mile to exceed expectations through timely delivery, consistent quality, and impactful results.",
             img: IMG3
         },
         {
             title: "Ownership",
-            description: "We are truly committed to going above and beyond traditional working scenarios. This ensures excellent growth and maximized ROI.",
+            description: "We take responsibility, align with your goals, and deliver with precision and accountability.",
             img: IMG4
         },
         {
             title: "Innovation",
-            description: "We are truly committed to going above and beyond traditional working scenarios. This ensures excellent growth and maximized ROI.",
+            description: "We embrace new technologies and bold thinking to create forward-looking, standout solutions.",
             img: IMG5
         },
         {
             title: "Transparency",
-            description: "We are truly committed to going above and beyond traditional working scenarios. This ensures excellent growth and maximized ROI.",
+            description: "We value honest communication, clear processes, and keep clients informed at every step.",
             img: IMG6
         }
     ]
@@ -51,7 +51,9 @@ const AboutUs = () => {
                                 The Story of YR IT SOLUTIONS 
                             </div>
                             <div className='min-[630px]:About-sub1 mt-[1.4rem] pricingM-subpart3'>
-                                A revolutionary non-traditional marketing firm which operates on a simple principle, Result-oriented campaigns. We solve real-life business problems that traditional agencies cannot.
+                                YR IT SOLUTIONS is a results-driven tech company that empowers businesses through custom web and mobile apps, digital marketing, and AI-powered tools.
+We don’t rely on tradition — we solve real problems with smart, scalable, and user-focused tech that delivers clear results.
+
                             </div>
                             <div className='flex gap-10 mt-[3rem]'>
                                 <div className='btn radius px-[16px] rounded-[8px] h-[43px] w-[fit-content] flex'>
@@ -81,7 +83,9 @@ const AboutUs = () => {
                             The Story of YR IT SOLUTIONS 
                         </div>
                         <div className='min-[630px]:About-sub1 mt-[1.4rem] pricingM-subpart3'>
-                            A revolutionary non-traditional marketing firm which operates on a simple principle, Result-oriented campaigns. We solve real-life business problems that traditional agencies cannot.
+                            YR IT SOLUTIONS is a results-driven tech company that empowers businesses through custom web and mobile apps, digital marketing, and AI-powered tools.
+We don’t rely on tradition — we solve real problems with smart, scalable, and user-focused tech that delivers clear results.
+
                         </div>
                         <div className='flex gap-10 mt-[3rem]'>
                             <div className='btn radius px-[16px] z-[9999] rounded-[8px] h-[43px] w-[fit-content] flex'>
@@ -105,7 +109,7 @@ const AboutUs = () => {
                         Some Facts About Us
                     </div>
                     <div className='About-sub4 text-[10px]'>
-                        We are spilling facts. We have been serving our clients out of our way with out-of-the-box ideas.
+                        Here are some quick facts about how we consistently deliver exceptional, creative solutions for our clients.
                     </div>
                     <div className=''>
                         <div className='flex justify-center items-center gap-6 mt-10 animatedstats-main'>
@@ -140,17 +144,17 @@ const AboutUs = () => {
                                             type: "spring",
                                             duration: index + 5.3,
                                         })}
-                                        animateToNumber={2}
+                                        animateToNumber={1}
                                         fontStyle={{
                                             fontSize: 50,
                                             color: "rgb(0, 0, 0)",
                                             fontWeight: 500,
                                             textAlign: "center",
                                         }}
-                                    /> <span className='text-[var(--theme)]'>&nbsp; years</span>
+                                    /> <span className='text-[var(--theme)]'>&nbsp; year</span>
                                 </div>
                                 <div className='About-sub-56'>
-                                    Founded sice 2022
+                                    Founded since 2024
                                 </div>
                             </div>
                             <div className='About-box-54 flex flex-col justify-center items-center'>
@@ -211,7 +215,9 @@ const AboutUs = () => {
                                     How Company Started
                                 </div>
                                 <div className='About-sub1 mt-[1.4rem]'>
-                                YR IT SOLUTIONS was founded with a clear mission — to go beyond conventional service models and deliver real, measurable impact. We offer innovative, tailored solutions that drive growth and solve real business challenges. Unlike traditional firms, we operate on result-oriented strategies designed to spark rapid growth and long-term success.Let’s build something impactful — get in touch today.
+                                YR IT SOLUTIONS began with a mission to break away from traditional service models and deliver real results. As a full-scale tech and marketing agency, we provide smart, tailored solutions that fuel growth and solve real challenges.
+We focus on impact-driven strategies for fast, lasting success.<br/>
+Let’s create something great — get in touch today.
                                 </div>
                             </div>
                         </div>
@@ -223,7 +229,7 @@ const AboutUs = () => {
                         OUR VALUES
                     </div>
                     <div className='About-sub4'>
-                        We hold our ethics, values and work culture to the highest standards and hold a professional work culture which refelts in our work.
+                        At YR IT SOLUTIONS, our values drive every decision and action — from internal collaboration to client partnerships. We are committed to ethics, integrity, and excellence, ensuring every solution we deliver is built with purpose and professionalism.
                     </div>
                     <div className='flex justify-center items-center gap-[1.5rem] max-[1236px]:gap-[0.4rem] max-[900px]:gap-[1.5rem] mt-10 animatedstats-main '>
                         {data.map((value, index) => (<div className='w-[291px] max-[1236px]:w-[291px] h-[448px] max-[600px]:h-[100%] max-[600px]:w-[260px] max-[600px]:py-4 About-box-border flex flex-col justify-center items-center'>

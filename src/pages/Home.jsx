@@ -31,7 +31,7 @@ const Home = () => {
             </div>
             <div className='w-[734px] max-[640px]:w-[100%]'>
               <div className='text-[64px] font-bold home-sub-head max-[640px]:text-center'>
-                Custom Product & Software Development Focused On Your Sucess
+                Custom Product & Software Development Focused On Your Success
               </div>
               <div className='max-[640px]:flex max-[640px]:justify-center max-[640px]:items-center'>
                 <div className='btn text-[20px] px-[16px] w-[186px] h-[56px] mt-[3rem] button-home max-[640px]:h-[3rem] max-[640px]:mt-[1rem] '>
