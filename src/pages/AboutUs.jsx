@@ -109,7 +109,7 @@ const AboutUs = () => {
                     </div>
                     <div className=''>
                         <div className='flex justify-center items-center gap-6 mt-10 animatedstats-main'>
-                            <div className='About-box-54 flex flex-col justify-center items-center '>
+                            {/* <div className='About-box-54 flex flex-col justify-center items-center '>
                                 <div className='About-sub55 flex '>
                                     <AnimatedNumbers
                                         includeComma
@@ -130,7 +130,7 @@ const AboutUs = () => {
                                 <div className='About-sub-56'>
                                     Worth GMV delivered
                                 </div>
-                            </div>
+                            </div> */}
                             <div className='About-box-54 flex flex-col justify-center items-center'>
                                 <div className='About-sub55 flex'>
                                     <AnimatedNumbers
@@ -211,7 +211,7 @@ const AboutUs = () => {
                                     How Company Started
                                 </div>
                                 <div className='About-sub1 mt-[1.4rem]'>
-                                    We are a 360-degree marketing agency, offering out-of-the-box and bespoke solutions to our clients. We unlike traditional agencies operate primarily on result-oriented models to unleash Hyper-growth within a short period of time.. Get in touch today
+                                YR IT SOLUTIONS was founded with a clear mission — to go beyond conventional service models and deliver real, measurable impact. We offer innovative, tailored solutions that drive growth and solve real business challenges. Unlike traditional firms, we operate on result-oriented strategies designed to spark rapid growth and long-term success.Let’s build something impactful — get in touch today.
                                 </div>
                             </div>
                         </div>

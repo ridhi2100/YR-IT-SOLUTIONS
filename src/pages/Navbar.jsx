@@ -20,7 +20,7 @@ const Navbar = ({ state, setState,setshow, show }) => {
             </div>
             <div className='z-[999999999] w-full h-[74px] flex justify-evenly max-[640px]:relative items-center '>
                 <div className='flex gap-[160px] max-[640px]:gap-0 max-[640px]:ml-2'>
-                    <img src={Logo} className='h-[34px] cursor-pointer' />
+                    <img src={Logo} className='h-[70px] cursor-pointer' />
                 </div>
                 <div className='w-[69%] ml-[9%]  min-[640px]:hidden cursor-pointer relative'>
                     <div className='float-right' onClick={
