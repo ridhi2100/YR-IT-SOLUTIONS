@@ -12,39 +12,39 @@ const ClientReview = () => {
   const testimonials = [
     {
       image: Image1,
-      name: 'Robin Sharma',
+      name: 'AR Teeksha Gupta',
       role: 'Customer',
-      text: 'We are associated with Softhub for over 1 years now and it has been a pleasant experience. The team is quite efficient and comes up with innovative idea development and strategies for growth.'
+      text: 'We are associated with YR IT Solutions for over 1 years now and it has been a pleasant experience. The team is quite efficient and comes up with innovative idea development and strategies for growth.'
     },
     {
       image: Image2,
-      name: 'Neha',
-      role: 'Customer',
-      text: 'SoftHub has been an excellent partner working with us across multiple projects. Being an agency we are now able to expand our working scope across various disciples, with the help of a true partnership.'
+      name: 'Kiran Sharma',
+      role: 'Portfolio Website',
+      text: 'YR IT Solutions has been an excellent partner working with us across multiple projects. Being an agency we are now able to expand our working scope across various disciples, with the help of a true partnership.'
     },
     {
       image: IMG1,
-      name: 'Rajesh Kumar',
-      role: 'Business Owner',
+      name: 'Anshul',
+      role: 'Architect and Design',
       text: 'Outstanding web development services! The team delivered exactly what we needed and more. Their attention to detail and professional approach made the entire process smooth and enjoyable.'
     },
     {
       image: IMG2,
-      name: 'Priya Singh',
-      role: 'Startup Founder',
-      text: 'SoftHub transformed our app idea into reality. Their expertise in mobile development and user experience design helped us create an app that our users absolutely love. Highly recommended!'
+      name: 'Yatish Kumar Goel',
+      role: 'Advocate',
+      text: 'YR IT Solutions transformed our app idea into reality. Their expertise in mobile development and user experience design helped us create an app that our users absolutely love. Highly recommended!'
     },
     {
       image: IMG3,
-      name: 'Amit Patel',
-      role: 'Marketing Director',
+      name: 'Raj Singh',
+      role: 'PNB BANNK',
       text: 'The digital marketing strategies implemented by SoftHub have significantly boosted our online presence. We saw a 300% increase in leads within just 3 months of working with them.'
     },
     {
       image: IMG4,
-      name: 'Sarah Johnson',
-      role: 'E-commerce Owner',
-      text: 'From concept to launch, SoftHub handled our e-commerce platform development flawlessly. The website is fast, secure, and user-friendly. Sales have increased by 250% since the launch.'
+      name: 'Dr Harza',
+      role: 'Doctor',
+      text: 'From concept to launch, YR IT Solutions handled our e-commerce pharmacy platform development flawlessly. The website is fast, secure, and user-friendly. Sales have increased by 250% since the launch.'
     }
   ];
 

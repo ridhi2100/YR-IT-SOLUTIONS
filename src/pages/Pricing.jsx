@@ -34,7 +34,10 @@ const Pricing = () => {
       features: [
         "Social Media Marketing",
         "Email Marketing",
-        "Pay-Per-Click (PPC) Advertising"
+        "Pay-Per-Click (PPC) Advertising",
+        "SEO",
+        "Content Marketing",
+        "Meta and Google Ads"
       ]
     }
   ];
