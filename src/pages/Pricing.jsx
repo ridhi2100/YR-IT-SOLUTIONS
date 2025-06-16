@@ -1,6 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom'; // Add this import
 
 const Pricing = () => {
+  const navigate = useNavigate(); // Add this hook
+
   const plans = [
     {
       title: "Web Development",
@@ -56,7 +59,6 @@ const Pricing = () => {
               key={index}
               className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-200 flex flex-col h-full"
             >
-
               {/* Card Content */}
               <div className="p-8 flex flex-col flex-grow">
                 {/* Title */}
@@ -89,8 +91,10 @@ const Pricing = () => {
                   <button 
                     className="w-full py-4 px-6 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg bg-[#030538] text-white hover:bg-[#020426]"
                     onClick={() => {
-                      // Handle navigation here
-                      console.log(`Selected plan: ${plan.title}`);
+                      // Navigate to /form with selected plan data
+                      navigate('/form', { 
+                        state: { selectedPlan: plan.title } 
+                      });
                     }}
                   >
                     Choose Plan
