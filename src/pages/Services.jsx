@@ -24,20 +24,23 @@ const Services = () => {
   const renderHomeContent = () => {
     const content = {
       app: {
-        title: "Converting Your App Ideas into Reality",
-        description: "We believe in blending latest mobile technologies with trending user engagement practices to deliver a user-friendly mobile app. We build apps, games, utilities, and core technology products for android and iOS."
+        title: "Turning Your App Ideas into Reality",
+        description: "At YR IT SOLUTIONS, we craft custom mobile apps, games, and utility solutions for Android and iOS using the latest technologies. Our mobile app development services focus on performance, intuitive UX, and high user engagement — delivering scalable, secure, and market-ready digital products that bring your vision to life."
+
       },
       uiux: {
-        title: "UI Development as Per Your Needs",
-        description: "We take pride in offering a bunch of innovative user interface designing services that not only incorporate the latest technologies but also comply with user experience practices. We don't design apps but a unique user experience."
+        title: "Custom UI Development for Exceptional UX",
+        description: "At YR IT SOLUTIONS, we design intuitive, modern user interfaces tailored to your business needs. Our UI development services blend cutting-edge technologies with UX best practices to deliver seamless, responsive, and user-centric digital experiences — not just designs, but journeys that engage and convert."
+
       },
       digital: {
-        title: "Crafting Memorable, Innovative Digital Experiences",
-        description: "We specialize in crafting unique user experiences through our innovative user interface design services. Leveraging the latest technologies and adhering to best practices in user experience, we don't just design apps—we create memorable digital journeys."
+        title: "Designing Innovative, Impactful Digital Experiences",
+        description: "At YR IT SOLUTIONS, we create intuitive, user-centric interfaces that go beyond aesthetics. Our UI/UX design services combine innovation, usability, and the latest tech to deliver seamless, memorable digital journeys across web and mobile platforms."
+
       },
       web: {
-        title: "We Create Experience Not Just Webs",
-        description: "Delivering high performance, secure, customized and seamlessly integrated websites, web apps, portals, and web applications as per your requirements. We are experts in mature and emerging web technologies."
+       title: "We Build Experiences, Not Just Websites",
+        description: "YR IT SOLUTIONS builds secure, high-performance websites, web apps, and portals tailored to your goals. Using modern technologies like React, Node.js, and cloud solutions, we deliver scalable, SEO-friendly, and user-centric digital experiences that drive growth and engagement."
       }
     };
 
@@ -71,6 +74,10 @@ const Services = () => {
     const serviceDetails = {
       web: [
         {
+          title: "SEO and Performance Optimization",
+          description: "Our websites are optimized for search engines and performance, ensuring fast load times and better visibility online."
+        },
+        {
           title: "Expertise",
           description: "Our team of professionals has extensive experience in various web development technologies and practices, ensuring that your website is built with the highest standards."
         },
@@ -78,10 +85,6 @@ const Services = () => {
           title: "Security",
           description: "We prioritize the security of your website, implementing best practices and robust measures to protect your data and users."
         },
-        {
-          title: "SEO and Performance Optimization",
-          description: "Our websites are optimized for search engines and performance, ensuring fast load times and better visibility online."
-        }
       ],
       app: [
         {
