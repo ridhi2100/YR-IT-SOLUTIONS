@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/10logo.png'
+import Logo from '../assets/10logo-nobg.png'
 import "../styles/Navbar.css"
 import X from "../assets/Xlogo.png"
 import { Link } from 'react-router-dom'
@@ -23,10 +23,12 @@ const Navbar = ({ state, setState, setshow, show }) => {
             <div className='z-[999999999] w-full h-[74px] flex justify-evenly max-[640px]:relative items-center '>
                 <div className='flex gap-[160px] max-[640px]:gap-0 max-[640px]:ml-2 items-center'>
                     <div className='flex items-center gap-4'>
-                        <img src={Logo} className='h-[120px] cursor-pointer' />
-                        {/* <span className='text-[var(--theme)] font-semibold text-xl max-[768px]:hidden'>IT Solutions</span> */}
+                        <Link to="/" onClick={() => setState(0)}>
+                            <img src={Logo} className='h-[75px] cursor-pointer' />
+                        </Link>
                     </div>
                 </div>
+                {/* Rest of your component remains the same */}
                 <div className='w-[69%] ml-[9%]  min-[640px]:hidden cursor-pointer relative'>
                     <div className='float-right' onClick={
                         () => {

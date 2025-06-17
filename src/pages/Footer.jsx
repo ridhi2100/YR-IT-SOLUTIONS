@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/Footer.css";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/10logo-nobg.png";
 import { Link, useNavigate } from 'react-router-dom'
 import F1 from "../assets/fb1.png"
 import X from "../assets/Xlogo.png"
@@ -16,7 +16,7 @@ export const Footer = ({ state, setState }) => {
                 <div className='h-[210px] max-[500px]:h-[fit-content]'>
                     <div className='h-[187px] max-[500px]:h-[fit-content] w-[285px] max-[600px]:w-[fit-content] '>
                         <div className='max-[500px]:w-full max-[500px]:flex max-[500px]:justify-center'>
-                            <img src={Logo} alt='Logo' className='h-[34px]' />
+                            <img src={Logo} alt='Logo' className='h-[75px]' />
                         </div>
                         <div className='footer-content mt-[2rem] max-[500px]:mt-4'>
                             We built an elegant solution. Our team believe that the success of our company is a result of our clients growth.
