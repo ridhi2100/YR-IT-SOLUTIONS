@@ -4,267 +4,121 @@ import Icon2 from '../assets/Icon2.png'
 import Icon3 from '../assets/Icon3.png'
 import Icon4 from '../assets/Icon.png'
 import "../styles/WhyChooseUs.css"
+
 const WhyChooseUs = () => {
     return (
-        <>
-            <div className='h-[582px] w-full max-[1100px]:mt-[0rem] min-[500px]:mt-[6rem]'>
-                <div className='heading smtext2'>
-                    Why Choose Us?
-                </div>
-                <div className='w-full flex justify-center mt-[5rem] max-md:hidden'>
-                    <table className='w-[80%] max-lg:w-[90%] max-md:hidden'>
-                        <tr>
-                            <td className=''>
-                                <img src={Icon1} />
-                            </td>
-                            <td className=''>
-                                <img src={Icon2} />
-                            </td>
-                            <td className=''>
-                                <img src={Icon3} />
-                            </td>
-                            <td className=''>
-                                <img src={Icon4} />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className=''>
-                                <div className='' style={{
-                                    fontFamily: "Plus Jakarta Sans, sans-serif",
-                                    fontSize: "27px",
-                                    fontWeight: "700",
-                                    lineHeight: "42px",
-                                    textAlign: "left",
-                                }}>
-                                    SDE Tradition
-
-                                </div>
-                            </td>
-                            <td className=''>
-                                <div className='' style={{
-                                    fontFamily: "Plus Jakarta Sans, sans-serif",
-                                    fontSize: "30px",
-                                    fontWeight: "700",
-                                    lineHeight: "42px",
-                                    textAlign: "left",
-                                }}>
-                                    Dashboard
-
-                                </div>
-                            </td>
-                            <td className=''>
-                                <div className='' style={{
-                                    fontFamily: "Plus Jakarta Sans, sans-serif",
-                                    fontSize: "30px",
-                                    fontWeight: "700",
-                                    lineHeight: "42px",
-                                    textAlign: "left",
-                                }}>
-                                    Innovation
-
-                                </div>
-                            </td>
-                            <td className=''>
-                                <div className='' style={{
-                                    fontFamily: "Plus Jakarta Sans, sans-serif",
-                                    fontSize: "30px",
-                                    fontWeight: "700",
-                                    lineHeight: "42px",
-                                    textAlign: "left",
-                                }}>
-                                    Data Driven
-
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className=''>
-                                <div className='pr-1 whychooseus-content-div' style={{
-                                    fontSize: "16px",
-                                    fontWeight: "400",
-                                    lineHeight: "27.52px",
-                                    textAlign: "left",
-                                    color: "#6A6A6A"
-
-                                }}>
-                                    Simplified campaign management with one view and regular updates. Pause, start or uplift with a single click. Manage your growth and results on the go.
-                                </div>
-                            </td>
-                            <td className=''>
-                                <div className='pr-10 whychooseus-content-div' style={{
-                                    fontSize: "16px",
-                                    fontWeight: "400",
-                                    lineHeight: "27.52px",
-                                    textAlign: "left",
-                                    color: "#6A6A6A"
-
-                                }}>
-                                    We have designed a set of robust strategies that are delivered for all our performance campaigns. We also keep up-to-date with new technologies, to always be a step ahead.
-                                </div>
-                            </td>
-                            <td className=''>
-                                <div className='pr-10 whychooseus-content-div' style={{
-                                    fontSize: "16px",
-                                    fontWeight: "400",
-                                    lineHeight: "27.52px",
-                                    textAlign: "left",
-                                    color: "#6A6A6A"
-
-                                }}>
-                                    We have revolutionized traditional marketing strategies. We offer result-oriented marketing campaigns so you achieve your goals faster.
-                                </div>
-                            </td>
-                            <td className=''>
-                                <div className='pr-10 ' style={{
-                                    fontSize: "16px",
-                                    fontWeight: "400",
-                                    lineHeight: "27.52px",
-                                    textAlign: "left",
-                                    color: "#6A6A6A"
-
-                                }}>
-                                    We collate and analyze your data, for meaningful insights to develop tailored user acquisition strategies. Deep dive into your data and unlock hyper-growth.
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div className='w-full flex justify-center items-center mt-[0rem]'>
-                    <table className='w-[95%] md:hidden'>
-                        <tr>
-                            <td className=''>
-                                <img src={Icon1} />
-                            </td>
-                            <td className=''>
-                                <img src={Icon2} />
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className='w-[50%]'>
-                                <div className='' style={{
-                                    fontFamily: "Plus Jakarta Sans, sans-serif",
-                                    fontSize: "23px",
-                                    fontWeight: "700",
-                                    lineHeight: "42px",
-                                    textAlign: "left",
-                                }}>
-                                    SDE Tradition
-
-                                </div>
-                            </td>
-                            <td className='w-[50%]'>
-                                <div className='' style={{
-                                    fontFamily: "Plus Jakarta Sans, sans-serif",
-                                    fontSize: "24px",
-                                    fontWeight: "700",
-                                    lineHeight: "42px",
-                                    textAlign: "left",
-                                }}>
-                                    Dashboard
-
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className=''>
-                                <div className='pr- whychooseus-content-div' style={{
-                                    fontSize: "13px",
-                                    fontWeight: "400",
-                                    lineHeight: "27.52px",
-                                    textAlign: "left",
-                                    color: "#6A6A6A",
-                                    paddingRight:"1rem"
-
-                                }}>
-                                    Simplified campaign management with one view and regular updates. Pause, start or uplift with a single click. Manage your growth and results on the go.
-                                </div>
-                            </td>
-                            <td className=''>
-                                <div className='pr whychooseus-contenkt-div' style={{
-                                    fontSize: "13px",
-                                    fontWeight: "400",
-                                    lineHeight: "27.52px",
-                                    textAlign: "left",
-                                    color: "#6A6A6A"
-
-                                }}>
-                                    We have designed a set of robust strategies that are delivered for all our performance campaigns. We also keep up-to-date with new technologies, to always be a step ahead.
-                                </div>
-                            </td>
-
-                        </tr>
-                    </table>
-                </div>
-
-                <div className='w-full flex justify-center items-center mt-[5rem]'>
-                    <table className='w-[95%] md:hidden'>
-                        <tr>
-                            <td className='w-[50%]'>
-                                <img src={Icon3} />
-                            </td>
-                            <td className='w-[50%]'>
-                                <img src={Icon4} />
-                            </td>
-                        </tr>
-                        <tr>
-
-                            <td className='w-[50%]'>
-                                <div className='' style={{
-                                    fontFamily: "Plus Jakarta Sans, sans-serif",
-                                    fontSize: "24px",
-                                    fontWeight: "700",
-                                    lineHeight: "42px",
-                                    textAlign: "left",
-                                }}>
-                                    Innovation
-
-                                </div>
-                            </td>
-                            <td className='w-[50%]'>
-                                <div className='' style={{
-                                    fontFamily: "Plus Jakarta Sans, sans-serif",
-                                    fontSize: "24px",
-                                    fontWeight: "700",
-                                    lineHeight: "42px",
-                                    textAlign: "left",
-                                }}>
-                                    Data Driven
-
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-
-                            <td className=''>
-                                <div className='pr-1 whychooseus-content-div' style={{
-                                    fontSize: "13px",
-                                    fontWeight: "400",
-                                    lineHeight: "27.52px",
-                                    textAlign: "left",
-                                    color: "#6A6A6A"
-
-                                }}>
-                                    We have revolutionized traditional marketing strategies. We offer result-oriented marketing campaigns so you achieve your goals faster.
-                                </div>
-                            </td>
-                            <td className=''>
-                                <div className='pr-1 ' style={{
-                                    fontSize: "13px",
-                                    fontWeight: "400",
-                                    lineHeight: "27.52px",
-                                    textAlign: "left",
-                                    color: "#6A6A6A"
-
-                                }}>
-                                    We collate and analyze your data, for meaningful insights to develop tailored user acquisition strategies. Deep dive into your data and unlock hyper-growth.
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-
+        <div className='w-full section-spacing py-12 md:py-16 lg:py-20'>
+            {/* Section Title */}
+            <div className='heading smtext2 mb-8 md:mb-12 lg:mb-16'>
+                Why Choose Us?
             </div>
-        </>
+
+            {/* Desktop Layout - 4 cards in a row */}
+            <div className='hidden md:block w-full px-4 lg:px-8'>
+                <div className='max-w-6xl mx-auto'>
+                    <div className='grid grid-cols-4 gap-6 lg:gap-8'>
+                        {/* Card 1 */}
+                        <div className='flex flex-col items-start'>
+                            <img src={Icon1} alt="SDE Tradition" className='mb-4 w-16 h-16 object-contain' />
+                            <h3 className='text-xl lg:text-2xl font-bold mb-4 text-left'>
+                                SDE Tradition
+                            </h3>
+                            <p className='text-sm lg:text-base text-gray-600 leading-relaxed text-left'>
+                                Simplified campaign management with one view and regular updates. Pause, start or uplift with a single click. Manage your growth and results on the go.
+                            </p>
+                        </div>
+
+                        {/* Card 2 */}
+                        <div className='flex flex-col items-start'>
+                            <img src={Icon2} alt="Dashboard" className='mb-4 w-16 h-16 object-contain' />
+                            <h3 className='text-xl lg:text-2xl font-bold mb-4 text-left'>
+                                Dashboard
+                            </h3>
+                            <p className='text-sm lg:text-base text-gray-600 leading-relaxed text-left'>
+                                We have designed a set of robust strategies that are delivered for all our performance campaigns. We also keep up-to-date with new technologies, to always be a step ahead.
+                            </p>
+                        </div>
+
+                        {/* Card 3 */}
+                        <div className='flex flex-col items-start'>
+                            <img src={Icon3} alt="Innovation" className='mb-4 w-16 h-16 object-contain' />
+                            <h3 className='text-xl lg:text-2xl font-bold mb-4 text-left'>
+                                Innovation
+                            </h3>
+                            <p className='text-sm lg:text-base text-gray-600 leading-relaxed text-left'>
+                                We have revolutionized traditional marketing strategies. We offer result-oriented marketing campaigns so you achieve your goals faster.
+                            </p>
+                        </div>
+
+                        {/* Card 4 */}
+                        <div className='flex flex-col items-start'>
+                            <img src={Icon4} alt="Data Driven" className='mb-4 w-16 h-16 object-contain' />
+                            <h3 className='text-xl lg:text-2xl font-bold mb-4 text-left'>
+                                Data Driven
+                            </h3>
+                            <p className='text-sm lg:text-base text-gray-600 leading-relaxed text-left'>
+                                We collate and analyze your data, for meaningful insights to develop tailored user acquisition strategies. Deep dive into your data and unlock hyper-growth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Mobile Layout - 2x2 grid */}
+            <div className='md:hidden w-full px-4'>
+                <div className='max-w-lg mx-auto space-y-8'>
+                    {/* First Row - 2 cards */}
+                    <div className='grid grid-cols-2 gap-4'>
+                        {/* Card 1 */}
+                        <div className='flex flex-col items-start'>
+                            <img src={Icon1} alt="SDE Tradition" className='mb-3 w-12 h-12 object-contain' />
+                            <h3 className='text-lg font-bold mb-3 text-left'>
+                                SDE Tradition
+                            </h3>
+                            <p className='text-xs text-gray-600 leading-relaxed text-left'>
+                                Simplified campaign management with one view and regular updates. Pause, start or uplift with a single click. Manage your growth and results on the go.
+                            </p>
+                        </div>
+
+                        {/* Card 2 */}
+                        <div className='flex flex-col items-start'>
+                            <img src={Icon2} alt="Dashboard" className='mb-3 w-12 h-12 object-contain' />
+                            <h3 className='text-lg font-bold mb-3 text-left'>
+                                Dashboard
+                            </h3>
+                            <p className='text-xs text-gray-600 leading-relaxed text-left'>
+                                We have designed a set of robust strategies that are delivered for all our performance campaigns. We also keep up-to-date with new technologies, to always be a step ahead.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Second Row - 2 cards */}
+                    <div className='grid grid-cols-2 gap-4'>
+                        {/* Card 3 */}
+                        <div className='flex flex-col items-start'>
+                            <img src={Icon3} alt="Innovation" className='mb-3 w-12 h-12 object-contain' />
+                            <h3 className='text-lg font-bold mb-3 text-left'>
+                                Innovation
+                            </h3>
+                            <p className='text-xs text-gray-600 leading-relaxed text-left'>
+                                We have revolutionized traditional marketing strategies. We offer result-oriented marketing campaigns so you achieve your goals faster.
+                            </p>
+                        </div>
+
+                        {/* Card 4 */}
+                        <div className='flex flex-col items-start'>
+                            <img src={Icon4} alt="Data Driven" className='mb-3 w-12 h-12 object-contain' />
+                            <h3 className='text-lg font-bold mb-3 text-left'>
+                                Data Driven
+                            </h3>
+                            <p className='text-xs text-gray-600 leading-relaxed text-left'>
+                                We collate and analyze your data, for meaningful insights to develop tailored user acquisition strategies. Deep dive into your data and unlock hyper-growth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     )
 }
 

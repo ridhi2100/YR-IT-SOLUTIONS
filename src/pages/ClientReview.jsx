@@ -1,47 +1,35 @@
 import React, { useState, useEffect } from 'react';
-import Image1 from '../assets/Image1.png';
-import Image2 from '../assets/Image2.png';
-import IMG1 from '../assets/e12.png';
-import IMG2 from '../assets/e13.png';
-import IMG3 from '../assets/e14.png';
-import IMG4 from '../assets/e15.png';
 
 const ClientReview = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const testimonials = [
     {
-      image: Image1,
       name: 'AR Teeksha Gupta',
       role: 'Customer',
       text: 'We are associated with YR IT Solutions for over 1 years now and it has been a pleasant experience. The team is quite efficient and comes up with innovative idea development and strategies for growth.'
     },
     {
-      image: Image2,
       name: 'Kiran Sharma',
       role: 'Portfolio Website',
       text: 'YR IT Solutions has been an excellent partner working with us across multiple projects. Being an agency we are now able to expand our working scope across various disciples, with the help of a true partnership.'
     },
     {
-      image: IMG1,
       name: 'Anshul',
       role: 'Architect and Design',
       text: 'Outstanding web development services! The team delivered exactly what we needed and more. Their attention to detail and professional approach made the entire process smooth and enjoyable.'
     },
     {
-      image: IMG2,
       name: 'Yatish Kumar Goel',
       role: 'Advocate',
       text: 'YR IT Solutions transformed our app idea into reality. Their expertise in mobile development and user experience design helped us create an app that our users absolutely love. Highly recommended!'
     },
     {
-      image: IMG3,
       name: 'Raj Singh',
       role: 'PNB BANNK',
       text: 'The digital marketing strategies implemented by SoftHub have significantly boosted our online presence. We saw a 300% increase in leads within just 3 months of working with them.'
     },
     {
-      image: IMG4,
       name: 'Dr Harza',
       role: 'Doctor',
       text: 'From concept to launch, YR IT Solutions handled our e-commerce pharmacy platform development flawlessly. The website is fast, secure, and user-friendly. Sales have increased by 250% since the launch.'
@@ -105,13 +93,6 @@ const ClientReview = () => {
                     {testimonials.slice(slideIndex * 2, slideIndex * 2 + 2).map((testimonial, index) => (
                       <div key={index} className="group">
                         <div className="relative bg-white rounded-3xl p-8 shadow-xl border border-gray-100 hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                          {/* Quote Icon */}
-                          <div className="absolute top-6 right-6 text-blue-600 opacity-20 group-hover:opacity-40 transition-opacity duration-300">
-                            <svg className="w-12 h-12" fill="currentColor" viewBox="0 0 24 24">
-                              <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-                            </svg>
-                          </div>
-
                           {/* Content */}
                           <div className="space-y-6">
                             <p className="text-gray-700 text-lg leading-relaxed italic">
@@ -121,19 +102,9 @@ const ClientReview = () => {
                             <StarRating />
 
                             {/* Author */}
-                            <div className="flex items-center space-x-4 pt-4">
-                              <div className="relative">
-                                <img 
-                                  src={testimonial.image} 
-                                  alt={testimonial.name}
-                                  className="w-16 h-16 rounded-full border-4 border-white shadow-lg object-cover"
-                                />
-                                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
-                              </div>
-                              <div>
-                                <h4 className="text-xl font-bold text-gray-900">{testimonial.name}</h4>
-                                <p className="text-gray-500 font-medium">{testimonial.role}</p>
-                              </div>
+                            <div className="pt-4">
+                              <h4 className="text-xl font-bold text-gray-900">{testimonial.name}</h4>
+                              <p className="text-gray-500 font-medium">{testimonial.role}</p>
                             </div>
                           </div>
                         </div>
@@ -176,13 +147,6 @@ const ClientReview = () => {
                 <div key={index} className="w-full flex-shrink-0 px-4">
                   <div className="group">
                     <div className="relative bg-white rounded-3xl p-8 shadow-xl border border-gray-100">
-                      {/* Quote Icon */}
-                      <div className="absolute top-6 right-6 text-blue-600 opacity-20">
-                        <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
-                        </svg>
-                      </div>
-
                       {/* Content */}
                       <div className="space-y-6">
                         <p className="text-gray-700 text-base leading-relaxed italic">
@@ -192,18 +156,9 @@ const ClientReview = () => {
                         <StarRating />
 
                         {/* Author */}
-                        <div className="flex items-center space-x-4 pt-4">
-                          <div className="relative">
-                            <img 
-                              src={testimonial.image} 
-                              alt={testimonial.name}
-                              className="w-12 h-12 rounded-full border-4 border-white shadow-lg object-cover"
-                            />
-                          </div>
-                          <div>
-                            <h4 className="text-lg font-bold text-gray-900">{testimonial.name}</h4>
-                            <p className="text-gray-500 font-medium text-sm">{testimonial.role}</p>
-                          </div>
+                        <div className="pt-4">
+                          <h4 className="text-lg font-bold text-gray-900">{testimonial.name}</h4>
+                          <p className="text-gray-500 font-medium text-sm">{testimonial.role}</p>
                         </div>
                       </div>
                     </div>
