@@ -25,22 +25,19 @@ const Services = () => {
     const content = {
       app: {
         title: "Turning Your App Ideas into Reality",
-        description: "At YR IT SOLUTIONS, we craft custom mobile apps, games, and utility solutions for Android and iOS using the latest technologies. Our mobile app development services focus on performance, intuitive UX, and high user engagement — delivering scalable, secure, and market-ready digital products that bring your vision to life."
-
+        description: "At YR IT SOLUTIONS, we build secure, feature-rich mobile apps using advanced tech like IoT, AR/VR, and AI. Our native and cross-platform apps offer seamless UX, high performance, and lasting business value."
       },
       uiux: {
         title: "Custom UI Development for Exceptional UX",
-        description: "At YR IT SOLUTIONS, we design intuitive, modern user interfaces tailored to your business needs. Our UI development services blend cutting-edge technologies with UX best practices to deliver seamless, responsive, and user-centric digital experiences — not just designs, but journeys that engage and convert."
-
+        description: "Enhance your online impact with professional custom website design services tailored to your brand. Our expert team delivers stunning, responsive designs that engage, inspire, and effectively convert visitors into loyal customers."
       },
       digital: {
         title: "Designing Innovative, Impactful Digital Experiences",
-        description: "At YR IT SOLUTIONS, we create intuitive, user-centric interfaces that go beyond aesthetics. Our UI/UX design services combine innovation, usability, and the latest tech to deliver seamless, memorable digital journeys across web and mobile platforms."
-
+        description: "User-first interfaces tailored to your brand are at the core of YR IT SOLUTIONS. Our UI/UX services combine creativity, functionality, and cutting-edge tech to deliver engaging, seamless experiences across web and mobile platforms."
       },
       web: {
        title: "We Build Experiences, Not Just Websites",
-        description: "YR IT SOLUTIONS builds secure, high-performance websites, web apps, and portals tailored to your goals. Using modern technologies like React, Node.js, and cloud solutions, we deliver scalable, SEO-friendly, and user-centric digital experiences that drive growth and engagement."
+        description: "Maximize your business potential with robust and user-friendly web applications from YR IT Solutions. Our professional web app development services experts build solutions to achieve agility and precision."
       }
     };
 
@@ -73,61 +70,98 @@ const Services = () => {
   const renderServiceContent = () => {
     const serviceDetails = {
       web: [
-        {
-          title: "SEO and Performance Optimization",
-          description: "Our websites are optimized for search engines and performance, ensuring fast load times and better visibility online."
-        },
-        {
-          title: "Expertise",
-          description: "Our team of professionals has extensive experience in various web development technologies and practices, ensuring that your website is built with the highest standards."
-        },
-        {
-          title: "Security",
-          description: "We prioritize the security of your website, implementing best practices and robust measures to protect your data and users."
-        },
-      ],
+  {
+    title: "Custom Web Application Development",
+    description: "We build scalable, tailored web apps—from wireframing to responsive UI—to align with your unique business goals."
+  },
+  {
+    title: "Application Upgradation & Technology Migration",
+    description: "Modernize legacy systems or migrate platforms seamlessly with minimal downtime and future-ready architecture."
+  },
+  {
+    title: "Mobile App & Web Integration",
+    description: "Unify mobile and web platforms to deliver consistent performance and user experience across all devices."
+  },
+  {
+    title: "Custom API Design & Integration",
+    description: "Connect with third-party services or internal systems through secure, scalable APIs tailored to your needs."
+  },
+  {
+    title: "Performance Optimization & Scalability",
+    description: "Boost speed, reliability, and capacity with fine-tuned web apps built to scale with your business."
+  },
+],
       app: [
-        {
-          title: "Expertise",
-          description: "Our team of professionals has extensive experience in various mobile app development technologies and practices, ensuring that your app is built with the highest standards."
-        },
-        {
-          title: "Security",
-          description: "We prioritize the security of your app, implementing best practices and robust measures to protect your data and users."
-        },
-        {
-          title: "SEO and Performance Optimization",
-          description: "Our apps are optimized for search engines and performance, ensuring fast load times and better visibility online."
-        }
-      ],
+  {
+    title: "App Consulting",
+    description: "Get expert guidance on tech stack and architecture to ensure optimal app performance."
+  },
+  {
+    title: "Cross-Platform Apps",
+    description: "Build apps that work seamlessly across iOS and Android using a single codebase."
+  },
+  {
+    title: "Upgradation & Migration",
+    description: "Modernize your app or transition it to a new platform without disruption."
+  },
+  {
+    title: "QA and Testing",
+    description: "Ensure reliability and performance with manual and automated testing."
+  },
+  {
+    title: "Maintenance and Support",
+    description: "Ongoing support covering compliance, performance, and feature evolution."
+  }
+],
       uiux: [
-        {
-          title: "Expertise",
-          description: "Our team of professionals has extensive experience in various UI/UX design principles and practices, ensuring that your interface is intuitive and user-friendly."
-        },
-        {
-          title: "User-Centered Design",
-          description: "We focus on creating designs that prioritize the needs and behaviors of your users, enhancing their interaction with your product."
-        },
-        {
-          title: "Customization",
-          description: "We tailor each project to meet your unique needs, providing personalized solutions that align with your business goals and brand identity."
-        }
-      ],
+         {
+    title: "Search Engine Optimization (SEO)",
+    description: "Improve visibility and drive organic traffic with on-page, technical, and content-based SEO strategies built into your website.",
+    icon: "🔍"
+  },
+  {
+    title: "Custom Web Designing",
+    description: "Tailored websites that reflect your brand’s identity and speak directly to your audience. We focus on originality, usability, and purpose-driven design.",
+    icon: "🖌️"
+  },
+  {
+    title: "Landing Page Design",
+    description: "High-converting landing pages designed to capture leads and drive user action. Perfect for campaigns, product launches, and promotions.",
+    icon: "📄"
+  },
+  {
+    title: "Responsive Web Design",
+    description: "Seamless user experiences across desktops, tablets, and smartphones. Our designs adapt fluidly to all screen sizes and resolutions.",
+    icon: "📱"
+  },
+  {
+    title: "Mobile-First Design",
+    description: "Designed with mobile users in mind first, ensuring fast load times, intuitive navigation, and better engagement on small screens.",
+    icon: "📲"
+  },
+],
       digital: [
-        {
-          title: "SEO (Search Engine Optimization)",
-          description: "We specialize in SEO strategies that enhance your online visibility and organic search engine rankings, driving targeted traffic to your website or app."
-        },
-        {
-          title: "PPC (Pay-Per-Click) Advertising",
-          description: "Our PPC experts create targeted campaigns on platforms like Google Ads and social media channels"
-        },
-        {
-          title: "Social Media Marketing",
-          description: "We develop customized social media strategies to build brand awareness, engage your audience"
-        }
-      ]
+  {
+    title: "Performance Marketing",
+    description: "Drive sustainable growth with data-backed campaigns focused on measurable ROI."
+  },
+  {
+    title: "Conversion Rate Optimization",
+    description: "Improve user journeys to boost leads, sign-ups, and sales."
+  },
+  {
+    title: "Search Engine Optimization (SEO)",
+    description: "Increase organic traffic by improving your site's visibility in search results."
+  },
+  {
+    title: "Consulting & Strategy",
+    description: "Align your goals with a tailored roadmap to reach the right audience effectively."
+  },
+  {
+    title: "Account-Based Marketing (ABM)",
+    description: "Engage high-value accounts with personalized campaigns and deeper insights."
+  }
+]
     };
 
     return (
@@ -154,73 +188,113 @@ const Services = () => {
   const renderServiceRightContent = () => {
     const rightContent = {
       web: [
-        {
-          title: "UI Development",
-          description: "We offer UI development for websites, apps, and portals, using cutting-edge design and user experience principles.",
-          icon: "🎯"
-        },
-        {
-          title: "Responsive Websites",
-          description: "We provide responsive web development services using agile and innovative practices to ensure your website adapts seamlessly across all devices.",
-          icon: "📱"
-        },
-        {
-          title: "Web Apps",
-          description: "From planning to final product, e-commerce websites, collaboration portals, and custom web applications, we can handle them all as per your requirements.",
-          icon: "⚡"
-        }
-      ],
+  {
+    title: "UI/UX Design & Development",
+    description: "Design intuitive, engaging interfaces with smooth navigation across all devices.",
+    icon: "🎨"
+  },
+  {
+    title: "CMS-Based Website Development",
+    description: "Create flexible, easy-to-manage sites using WordPress, Strapi, or headless CMS.",
+    icon: "🧩"
+  },
+  {
+    title: "Front-end Development",
+    description: "Build responsive, modern web UIs using React, Vue, and Tailwind CSS.",
+    icon: "💻"
+  },
+  {
+    title: "Back-end Development",
+    description: "Develop secure, scalable systems with Node.js, Django, Laravel, and cloud tools.",
+    icon: "🛠️"
+  },
+  {
+    title: "Quality Assurance & Testing",
+    description: "Test apps thoroughly with manual and automated tools to ensure top performance.",
+    icon: "✅"
+  }
+],
       app: [
-        {
-          title: "Android Apps",
-          description: "We are Android Experts and offer custom android app development services for startups and enterprise customers. Our team is well-versed in delivering customized android apps.",
-          icon: "🤖"
-        },
-        {
-          title: "iOS Apps",
-          description: "Our team has deep expertise in iPhone application development services for businesses and startups. We have 10 years of experience in iOS app development and lifecycle management.",
-          icon: "🍎"
-        },
-        {
-          title: "Cross Platform",
-          description: "We got expertise in cross-platform mobile app development. It's indeed a better and cost-effective way to build and maintain apps. Titanium, QT, Corona, Xamarin, we got it all.",
-          icon: "🔄"
-        }
-      ],
+  {
+    title: "Native App Development",
+    description: "High-performance apps built specifically for iOS or Android platforms.",
+    icon: "📱"
+  },
+  {
+    title: "Mobile App Design",
+    description: "Engaging UI and intuitive UX that enhance adoption and user satisfaction.",
+    icon: "🎨"
+  },
+  {
+    title: "App Integration",
+    description: "Securely connect with third-party APIs, payment systems, and cloud services.",
+    icon: "🔌"
+  },
+  {
+    title: "Digital Transformation",
+    description: "Leverage AI, IoT, and cloud to digitize workflows and enhance mobile capabilities.",
+    icon: "🌐"
+  },
+  {
+    title: "App Store Optimization (ASO)",
+    description: "Boost your app’s discoverability and downloads with ASO strategies and keyword targeting.",
+    icon: "🚀"
+  }
+],
       uiux: [
-        {
-          title: "Unique UI for Every Engagement",
-          description: "We believe that every engagement is unique. Hence, our best UI designers provide totally unique and user-centric interface designs. Be it an app, product, web app, or some branding element, offering the best end-user experience is imperative.",
-          icon: "✨"
-        },
-        {
-          title: "Design with Focus on Your Users",
-          description: "Being of the leading Design and Development Company, IQVIS has set the best SOP for service delivery. We incorporate the practices of user experience designs that include development activities.",
-          icon: "👥"
-        },
-        {
-          title: "Maximize Your ROI",
-          description: "Our UI design services help our clients offer a robust and scalable user experience, which let them maximize their ROI and achieve core business goals.",
-          icon: "📈"
-        }
-      ],
+  {
+    title: "eCommerce Website Design",
+    description: "Conversion-focused online stores with intuitive layouts, smooth navigation, and secure payment integration for better sales.",
+    icon: "🛒"
+  },
+  {
+    title: "UI/UX Design",
+    description: "Clean, engaging designs focused on user behavior and interaction. We ensure every element enhances the overall user journey.",
+    icon: "🎨"
+  },
+  {
+    title: "Website Redesign",
+    description: "Modernize outdated websites with fresh designs and improved functionality. We focus on visual appeal and performance upgrades.",
+    icon: "♻️"
+  },
+  {
+    title: "CMS Website Design",
+    description: "Easy-to-manage websites using platforms like WordPress or headless CMS. Empower your team to update and scale content quickly.",
+    icon: "🧩"
+  },
+  {
+    title: "Accessibility Optimization",
+    description: "Build inclusive websites that meet accessibility standards. We ensure usability for all users, including those with disabilities.",
+    icon: "♿"
+  }
+],
       digital: [
-        {
-          title: "Content Marketing",
-          description: "Create valuable content tailored to target audiences to drive engagement and app downloads.",
-          icon: "📝"
-        },
-        {
-          title: "Email Marketing",
-          description: "Execute email campaigns to nurture leads and promote app features, enhancing user acquisition and retention.",
-          icon: "📧"
-        },
-        {
-          title: "Analytics and Reporting",
-          description: "Provide data-driven insights to optimize marketing efforts, measuring performance across platforms and app types.",
-          icon: "📊"
-        }
-      ]
+  {
+    title: "Content Marketing",
+    description: "Build authority with blogs, videos, and infographics tailored to your audience.",
+    icon: "📝"
+  },
+  {
+    title: "Social Media Marketing",
+    description: "Grow engagement and visibility through strategic content and active community management.",
+    icon: "📱"
+  },
+  {
+    title: "PPC Marketing",
+    description: "Drive traffic and leads instantly with targeted ad campaigns that optimize ROI.",
+    icon: "💰"
+  },
+  {
+    title: "Email Marketing",
+    description: "Send personalized emails to convert leads, retain users, and boost engagement.",
+    icon: "📧"
+  },
+  {
+    title: "Website Speed Optimization",
+    description: "Improve load times for better UX, SEO, and higher conversion rates.",
+    icon: "⚡"
+  }
+]
     };
 
     return (
