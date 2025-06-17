@@ -2,9 +2,9 @@
 import emailjs from '@emailjs/browser';
 
 // EmailJS configuration for meeting requests
-const EMAILJS_SERVICE_ID = 'service_yhmrddm';
-const EMAILJS_TEMPLATE_ID = 'template_bj0a2sl'; // Replace with your actual template ID after creating it
-const EMAILJS_PUBLIC_KEY = 'Z3UkvHzlu-sxbuKfZ';
+const EMAILJS_SERVICE_ID = 'service_uo4i8rf';
+const EMAILJS_TEMPLATE_ID = 'template_6lfvhx9'; 
+const EMAILJS_PUBLIC_KEY = 'EouVdx4XMhlZcbMyl';
 
 // Initialize EmailJS
 emailjs.init(EMAILJS_PUBLIC_KEY);

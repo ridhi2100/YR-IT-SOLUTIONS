@@ -2,9 +2,9 @@
 import emailjs from '@emailjs/browser';
 
 // EmailJS configuration
-const EMAILJS_SERVICE_ID = 'service_yhmrddm';
-const EMAILJS_TEMPLATE_ID = 'template_a93tv4p'; // Fixed: Using the correct template ID from your test
-const EMAILJS_PUBLIC_KEY = 'Z3UkvHzlu-sxbuKfZ';
+const EMAILJS_SERVICE_ID = 'service_uo4i8rf';   //service_uo4i8rf
+const EMAILJS_TEMPLATE_ID = 'template_uy2yf0g'  //'template_a93tv4p'; 
+const EMAILJS_PUBLIC_KEY =  'EouVdx4XMhlZcbMyl'      //'Z3UkvHzlu-sxbuKfZ'; //EouVdx4XMhlZcbMyl
 
 // Initialize EmailJS
 emailjs.init(EMAILJS_PUBLIC_KEY);
