@@ -117,27 +117,22 @@ const Services = () => {
          {
     title: "Search Engine Optimization (SEO)",
     description: "Improve visibility and drive organic traffic with on-page, technical, and content-based SEO strategies built into your website.",
-    icon: "🔍"
   },
   {
     title: "Custom Web Designing",
     description: "Tailored websites that reflect your brand’s identity and speak directly to your audience. We focus on originality, usability, and purpose-driven design.",
-    icon: "🖌️"
   },
   {
     title: "Landing Page Design",
     description: "High-converting landing pages designed to capture leads and drive user action. Perfect for campaigns, product launches, and promotions.",
-    icon: "📄"
   },
   {
     title: "Responsive Web Design",
     description: "Seamless user experiences across desktops, tablets, and smartphones. Our designs adapt fluidly to all screen sizes and resolutions.",
-    icon: "📱"
   },
   {
     title: "Mobile-First Design",
     description: "Designed with mobile users in mind first, ensuring fast load times, intuitive navigation, and better engagement on small screens.",
-    icon: "📲"
   },
 ],
       digital: [
@@ -146,12 +141,12 @@ const Services = () => {
     description: "Drive sustainable growth with data-backed campaigns focused on measurable ROI."
   },
   {
-    title: "Conversion Rate Optimization",
-    description: "Improve user journeys to boost leads, sign-ups, and sales."
-  },
-  {
     title: "Search Engine Optimization (SEO)",
     description: "Increase organic traffic by improving your site's visibility in search results."
+  },
+  {
+    title: "Conversion Rate Optimization",
+    description: "Improve user journeys to boost leads, sign-ups, and sales."
   },
   {
     title: "Consulting & Strategy",
@@ -269,15 +264,15 @@ const Services = () => {
   }
 ],
       digital: [
+        {
+    title: "Social Media Marketing",
+    description: "Grow engagement and visibility through strategic content and active community management.",
+    icon: "📱"
+  },
   {
     title: "Content Marketing",
     description: "Build authority with blogs, videos, and infographics tailored to your audience.",
     icon: "📝"
-  },
-  {
-    title: "Social Media Marketing",
-    description: "Grow engagement and visibility through strategic content and active community management.",
-    icon: "📱"
   },
   {
     title: "PPC Marketing",

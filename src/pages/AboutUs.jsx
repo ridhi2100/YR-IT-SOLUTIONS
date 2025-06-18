@@ -50,11 +50,11 @@ const AboutUs = () => {
                             <div className='About-sub-h max-[630px]:text-[25px]'>
                                 The Story of YR IT SOLUTIONS 
                             </div>
-                            <div className='min-[630px]:About-sub1 mt-[1.4rem] pricingM-subpart3'>
-                                YR IT SOLUTIONS is a results-driven tech company that empowers businesses through custom web and mobile apps, digital marketing, and AI-powered tools.
-We don’t rely on tradition — we solve real problems with smart, scalable, and user-focused tech that delivers clear results.
+                            <div className="min-[630px]:About-sub1 mt-[1.4rem] pricingM-subpart3 text-base max-[500px]:text-sm max-[400px]:text-xs">
+                        YR IT SOLUTIONS is a results-driven tech company that empowers businesses through custom web and mobile apps, digital marketing, and AI-powered tools.
+                        We don’t rely on tradition — we solve real problems with smart, scalable, and user-focused tech that delivers clear results.
+                        </div>
 
-                            </div>
                             <div className='flex gap-10 mt-[3rem]'>
                                 <div className='btn radius px-[16px] rounded-[8px] h-[43px] w-[fit-content] flex'>
                                     <Link to="/ourservices">
@@ -82,10 +82,11 @@ We don’t rely on tradition — we solve real problems with smart, scalable, an
                         <div className='About-sub-h max-[630px]:text-[25px] mt-[1rem]'>
                             The Story of YR IT SOLUTIONS 
                         </div>
-                        <div className='min-[630px]:About-sub1 mt-[1.4rem] pricingM-subpart3'>
-                            YR IT SOLUTIONS is a results-driven tech company that empowers businesses through custom web and mobile apps, digital marketing, and AI-powered tools.
-We don’t rely on tradition — we solve real problems with smart, scalable, and user-focused tech that delivers clear results.
-
+                        <div className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed">
+                        YR IT SOLUTIONS is a results-driven tech company that empowers businesses
+                        through custom web and mobile apps, digital marketing, and AI-powered tools.
+                        We don’t rely on tradition — we solve real problems with smart, scalable,
+                        and user-focused tech that delivers clear results.
                         </div>
                         <div className='flex gap-10 mt-[3rem]'>
                             <div className='btn radius px-[16px] z-[9999] rounded-[8px] h-[43px] w-[fit-content] flex'>
@@ -214,10 +215,9 @@ We don’t rely on tradition — we solve real problems with smart, scalable, an
                                 <div className='About-sub-h max-[630px]:text-[25px]'>
                                     How Company Started
                                 </div>
-                                <div className='About-sub1 mt-[1.4rem]'>
-                                YR IT SOLUTIONS began with a mission to break away from traditional service models and deliver real results. As a full-scale tech and marketing agency, we provide smart, tailored solutions that fuel growth and solve real challenges.
-We focus on impact-driven strategies for fast, lasting success.<br/>
-Let’s create something great — get in touch today.
+                                <div className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed">
+                                YR IT SOLUTIONS began with a mission to break away from traditional service models and deliver real results. As a full-scale tech and marketing agency, we provide smart, tailored solutions that fuel growth and solve real challenges.We focus on impact-driven strategies for fast, lasting success.<br/>
+                                Let’s create something great — get in touch today.
                                 </div>
                             </div>
                         </div>
@@ -228,7 +228,7 @@ Let’s create something great — get in touch today.
                     <div className='heading max-[630px]:text-[25px]'>
                         OUR VALUES
                     </div>
-                    <div className='About-sub4'>
+                    <div className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed">
                         At YR IT SOLUTIONS, our values drive every decision and action — from internal collaboration to client partnerships. We are committed to ethics, integrity, and excellence, ensuring every solution we deliver is built with purpose and professionalism.
                     </div>
                     <div className='flex justify-center items-center gap-[1.5rem] max-[1236px]:gap-[0.4rem] max-[900px]:gap-[1.5rem] mt-10 animatedstats-main '>

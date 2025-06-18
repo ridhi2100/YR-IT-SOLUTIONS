@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const ClientReview = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
 
   const testimonials = [
     {
@@ -36,14 +37,22 @@ const ClientReview = () => {
     }
   ];
 
-  // Auto-slide functionality
   useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  useEffect(() => {
+    const maxSlides = isMobile ? testimonials.length : Math.ceil(testimonials.length / 2);
+
     const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % Math.ceil(testimonials.length / 2));
+      setCurrentSlide((prev) => (prev + 1) % maxSlides);
     }, 4000); // Change slide every 4 seconds
 
     return () => clearInterval(interval);
-  }, [testimonials.length]);
+  }, [isMobile, testimonials.length]);
 
   const StarRating = () => (
     <div className="flex space-x-1">
@@ -56,11 +65,13 @@ const ClientReview = () => {
   );
 
   const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % Math.ceil(testimonials.length / 2));
+    const maxSlides = isMobile ? testimonials.length : Math.ceil(testimonials.length / 2);
+    setCurrentSlide((prev) => (prev + 1) % maxSlides);
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + Math.ceil(testimonials.length / 2)) % Math.ceil(testimonials.length / 2));
+    const maxSlides = isMobile ? testimonials.length : Math.ceil(testimonials.length / 2);
+    setCurrentSlide((prev) => (prev - 1 + maxSlides) % maxSlides);
   };
 
   const goToSlide = (index) => {
@@ -171,7 +182,7 @@ const ClientReview = () => {
 
         {/* Dot Indicators */}
         <div className="flex justify-center space-x-3 mt-12">
-          {Array.from({ length: window.innerWidth >= 768 ? Math.ceil(testimonials.length / 2) : testimonials.length }).map((_, index) => (
+          {Array.from({ length: isMobile ? testimonials.length : Math.ceil(testimonials.length / 2) }).map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index)}
@@ -188,7 +199,9 @@ const ClientReview = () => {
         <div className="mt-8 max-w-md mx-auto">
           <div className="bg-gray-200 rounded-full h-1 overflow-hidden">
             <div 
-              className="bg-gradient-to-r from-blue-600 to-purple-600 h-full transition-all duration-100 ease-linear"
+              className={`bg-gradient-to-r from-blue-600 to-purple-600 h-full transition-all ease-linear ${
+        isMobile ? 'duration-40' : 'duration-70'
+      }`}
               style={{
                 width: '100%',
                 animation: 'progress 4s linear infinite'

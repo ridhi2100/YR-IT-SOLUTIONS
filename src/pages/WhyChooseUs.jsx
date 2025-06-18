@@ -7,7 +7,7 @@ import "../styles/WhyChooseUs.css"
 
 const WhyChooseUs = () => {
     return (
-        <div className='w-full section-spacing py-12 md:py-16 lg:py-20'>
+        <div className='w-full section-spacing py-8 md:py-8 lg:py-12'>
             {/* Section Title */}
             <div className='heading smtext2 mb-8 md:mb-12 lg:mb-16'>
                 Why Choose Us?

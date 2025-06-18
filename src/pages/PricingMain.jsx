@@ -135,10 +135,8 @@ const PricingMain = () => {
                     </div>
 
                 </div>
-                <div className='mt-[4rem] max-[1000px]:overflow-scroll  max-[1000px]:w-[100vw]'>
-                    <div className='h-[795px] min-[1000px]:overflow-hidden'>
-
-
+                <div className='mt-[4rem] overflow-x-auto w-full'>
+                 <div className='min-w-[1200px] max-w-[100%] h-auto'>
                         <div className='flex w-full justify-between items-center text-center text-[20px] font-bold mb-4 mt-4'>
                             {/* <div className='w-[28%] '>
                                 &nbsp;
@@ -179,7 +177,7 @@ const PricingMain = () => {
                                             <div className='w-[325px] h-[755px]'>
                                                 <div className=''>
                                                 <div className='mt-[-5rem] text-center mb-[2.8rem] text-[20px] font-bold'>
-                                                        Aloa
+                                                        YR IT SOLUTIONS
                                                     </div>
                                                     <div className='flex flex-col gap-[2.2rem]  w-[322px]'>
                                                         {data.map((item, index) => (

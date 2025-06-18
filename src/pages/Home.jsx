@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from './Navbar'
+// import Navbar from './Navbar'
 import '../styles/home.css'
 import IMGC from "../assets/web-development-services.gif"
 import WhyChooseUs from './WhyChooseUs';
-import Delivers from './Delivers';
+// import Delivers from './Delivers';
 import ClientReview from './ClientReview';
 import Pricing from './Pricing';
 import ContactUs from './ContactUs';
@@ -63,15 +63,15 @@ const Home = () => {
 
       {/* Sections with proper spacing */}
       <div className="w-full">
-        <div className="mb-16 sm:mb-20 lg:mb-24">
+        <div className="mb-12 sm:mb-16 lg:mb-16">
           <WhyChooseUs />
         </div>
         
-        <div className="mb-16 sm:mb-20 lg:mb-24">
+        <div className="mb-12 sm:mb-16 lg:mb-16">
           <ClientReview />
         </div>
         
-        <div className="mb-16 sm:mb-20 lg:mb-24">
+        <div className="mb-12 sm:mb-16 lg:mb-16">
           <Pricing />
         </div>
         
