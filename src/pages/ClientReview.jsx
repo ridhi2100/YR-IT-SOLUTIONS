@@ -79,7 +79,7 @@ const ClientReview = () => {
   };
 
   return (
-    <section className="py-20 px-4 bg-gradient-to-br from-blue-50 to-purple-50">
+    <section className="py-16 px-4 bg-gradient-to-br from-blue-50 to-purple-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 space-y-6">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
