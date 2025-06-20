@@ -4,10 +4,10 @@ import "../styles/PricingMain.css"
 import OK from "../assets/Vector.png"
 import IMG from '../assets/image11.png'
 import NOK from "../assets/Vector2.png"
-import PI from "../assets/PI12.png"
+// import PI from "../assets/PI12.png"
 import ClientReview from './ClientReview'
-import { Footer } from './Footer'
-import HaveAQues from './HaveAQues'
+// import { Footer } from './Footer'
+// import HaveAQues from './HaveAQues'
 import { Link } from 'react-router-dom'
 const PricingMain = () => {
     const datad = [
@@ -29,16 +29,21 @@ const PricingMain = () => {
             name: "Scale up and down at your own pace",
             ok: 1
         }, {
-            name: "Scale up and down at your own pace",
+            name: "We police process and standards",
+            ok: 1
+        }, {
+            name: "Aloa's data backed insights",
             ok: 1
         }, {
             name: "Scale up and down at your own pace",
             ok: 1
-        }, {
-            name: "Scale up and down at your own pace",
-            ok: 1
-        }, {
-            name: "Scale up and down at your own pace",
+        }, 
+        // {
+        //     name: "Scale up and down at your own pace",
+        //     ok: 1
+        // },
+        {
+            name: "Developer replacement guarantee",
             ok: 1
         },
     ]
@@ -53,64 +58,80 @@ const PricingMain = () => {
             name: "Scale up and down at your own pace",
             ok: 1
         }, {
-            name: "Scale up and down at your own pace",
+            name: "We police process and standards",
+            ok: 1
+        }, {
+            name: "Aloa's data backed insights",
             ok: 1
         }, {
             name: "Scale up and down at your own pace",
             ok: 1
-        }, {
-            name: "Scale up and down at your own pace",
-            ok: 1
-        }, {
-            name: "Scale up and down at your own pace",
+        }, 
+        // {
+        //     name: "Scale up and down at your own pace",
+        //     ok: 1
+        // },
+        {
+            name: "Developer replacement guarantee",
             ok: 1
         },
     ]
     const data3 = [
         {
-            name: "Highly vetted individual or teams",
+            name: "Find and qualify your own team",
             ok: 1
         }, {
             name: "$$",
             ok: 1
         }, {
-            name: "Scale up and down at your own pace",
-            ok: 1
-        }, {
-            name: "Scale up and down at your own pace",
+            name: "Scaling means re-onboarding",
             ok: 0
         }, {
-            name: "Scale up and down at your own pace",
+            name: "You police their processes",
             ok: 0
         }, {
-            name: "Scale up and down at your own pace",
+            name: "It's you vs them",
             ok: 0
-        }, {
-            name: "Scale up and down at your own pace",
+        }, 
+        // {
+        //     name: "$",
+        //     ok: 0
+        // }, 
+        {
+            name: "Scaling means re-onboarding",
+            ok: 0
+        },
+        {
+            name: "It's the same as starting over",
             ok: 0
         },
     ]
     const data4 = [
         {
-            name: "Highly vetted individual or teams",
+            name: "Find and qualify your own team",
             ok: 1
         }, {
-            name: "$$",
-            ok: 1
-        }, {
-            name: "Scale up and down at your own pace",
+            name: "$$$$",
             ok: 0
         }, {
-            name: "Scale up and down at your own pace",
+            name: "Scale without vetting again",
             ok: 0
         }, {
-            name: "Scale up and down at your own pace",
+            name: "You police their processes",
             ok: 0
         }, {
-            name: "Scale up and down at your own pace",
+            name: "It's you vs them",
             ok: 0
         }, {
-            name: "Scale up and down at your own pace",
+            name: "Scale without vetting again",
+            ok: 0
+        }, 
+        // {
+        //     name: "Scale without vetting again",
+        //     ok: 0
+        // },
+        {
+            name: "It's the same as starting over",
             ok: 0
         },
     ]
@@ -180,7 +201,7 @@ const PricingMain = () => {
                                                         YR IT SOLUTIONS
                                                     </div>
                                                     <div className='flex flex-col gap-[2.2rem]  w-[322px]'>
-                                                        {data.map((item, index) => (
+                                                        {data2.map((item, index) => (
                                                             <>
                                                                 <div className='flex justify-left items-center pl-3 gap-4'>
 
@@ -261,9 +282,9 @@ const PricingMain = () => {
                             <div className='w-[80%]  max-[1100px]:w-[90%]  max-[860px]:w-[97%] max-[780px]:items-center'>
                                 {datad.map((item, index) => {
                                     return (<>
-                                        <div className={`flex ${index % 2 == 1 ? 'flex-row-reverse' : ''} gap-12 w-full mb-[10rem] max-[780px]:flex-col max-[780px]:items-center `}>
+                                        <div className={`flex ${index % 2 === 1 ? 'flex-row-reverse' : ''} gap-12 w-full mb-[10rem] max-[780px]:flex-col max-[780px]:items-center `}>
                                             <div className='h-[408px] w-[490px] max-[600px]:w-[98%] max-[600px]:h-[auto]'>
-                                                <img src={item.img} className='h-[408px] w-[490px] max-[600px]:w-[98%] max-[600px]:h-[auto]' />
+                                                <img src={item.img} alt="" className='h-[408px] w-[490px] max-[600px]:w-[98%] max-[600px]:h-[auto]' />
                                             </div>
                                             <div className='flex flex-col w-[601px] max-[600px]:w-[98%]'>
                                                 <div className='text-[25px] text-[var(--theme)] max-[630px]:text-[20px]'>
