@@ -44,7 +44,7 @@ const AboutUs = () => {
                 <div className='max-[779px]:hidden max-[780px]:items-center h-[524px] max-[780px]:h-[100vh] max-[520px]:h-[70vh] pt-[5rem] max-[981px]:pt-1 max-[1100px]:w-[90%]  max-[860px]:w-[97%]'>
                     <div className='h-[431px] flex justify-around items-center max-[780px]:flex-col max-[780px]:items-center'>
                         <div className='h-[431px] w-[674px] max-[600px]:w-[98%] max-[600px]:h-[auto] min-[780px]:hidden'>
-                            <img src={IMG1} alt="" className='max-[600px]:w-[98%] max-[600px]:h-[auto]' />
+                            <img src={IMG1} alt="" className='w-[400px] h-auto max-[600px]:w-[90%]'/>
                         </div>
                         <div className='h-[431px] w-[468px] max-sm:w-[100%] max-[1100px]:ml-8 max-[780px]:ml-0'>
                             <div className='About-sub-h max-[630px]:text-[25px]'>
@@ -55,7 +55,7 @@ const AboutUs = () => {
                         We don’t rely on tradition — we solve real problems with smart, scalable, and user-focused tech that delivers clear results.
                         </div>
 
-                            <div className='flex gap-10 mt-[3rem]'>
+                         <div className='flex gap-10 mt-[3rem]'>
                                 <div className='btn radius px-[16px] rounded-[8px] h-[43px] w-[fit-content] flex'>
                                     <Link to="/ourservices">
                                         Explore our Services
@@ -69,26 +69,27 @@ const AboutUs = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='h-[431px] w-[674px] max-[600px]:w-[98%] max-[600px]:h-[auto] max-[780px]:hidden'>
-                            <img src={IMG1} alt="" className='max-[600px]:w-[98%] max-[600px]:h-[auto]' />
+                        <div className='h-[431px] w-[674x] max-[600px]:w-[98%] max-[600px]:h-[auto] max-[780px]:hidden'>
+                            <img src={IMG1} alt="" className='w-[800px] h-auto max-[600px]:w-[90%]'
+/>
                         </div>
                     </div>
                 </div>
                 <div className='px-2 min-[780px]:hidden'>
                     <div className='max-[600px]:w-[98%] max-[600px]:h-[auto] min-[780px]:hidden flex justify-center'>
-                        <img src={IMG1} alt="" className='max-[600px]:w-[98%] max-[600px]:h-[auto]' />
+                        <img src={IMG1} alt=""className='w-[400px] h-auto max-[600px]:w-[90%]'/>
                     </div>
                     <div className=''>
                         <div className='About-sub-h max-[630px]:text-[25px] mt-[1rem]'>
                             The Story of YR IT SOLUTIONS 
                         </div>
-                        <div className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed">
+                        <div className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed text-center max-w-[90%] mx-auto">
                         YR IT SOLUTIONS is a results-driven tech company that empowers businesses
                         through custom web and mobile apps, digital marketing, and AI-powered tools.
                         We don’t rely on tradition — we solve real problems with smart, scalable,
                         and user-focused tech that delivers clear results.
                         </div>
-                        <div className='flex gap-10 mt-[3rem]'>
+                        <div className='flex justify-center gap-4 mt-[3rem]'>
                             <div className='btn radius px-[16px] z-[9999] rounded-[8px] h-[43px] w-[fit-content] flex'>
                                 <Link to="/ourservices">
                                     Explore our Services
@@ -113,7 +114,7 @@ const AboutUs = () => {
                         Here are some quick facts about how we consistently deliver exceptional, creative solutions for our clients.
                     </div>
                     <div className=''>
-                        <div className='flex justify-center items-center gap-6 mt-10 animatedstats-main'>
+                        <div className='flex justify-center items-center gap-32 mt-10 animatedstats-main'>
                             {/* <div className='About-box-54 flex flex-col justify-center items-center '>
                                 <div className='About-sub55 flex '>
                                     <AnimatedNumbers
@@ -210,7 +211,7 @@ const AboutUs = () => {
                             <div className='h-[431px] max-md:justify-center max-md:items-center max-md:flex w-fu;; w-[674px] max-[600px]:w-[98%] max-[600px]:h-[auto]'>
                                 <img src={IMG2} alt="" className='max-[600px]:w-[98%] max-[600px]:h-[auto]' />
                             </div>
-                            <div className='h-[411px] w-[468px] max-md:w-full max-md:px-3'>
+                            <div className='h-[411px] w-[468px] max-md:w-full max-md:px-3 max-md:flex max-md:flex-col max-md:items-center max-md:text-center'>
 
                                 <div className='About-sub-h max-[630px]:text-[25px]'>
                                     How Company Started
@@ -224,11 +225,11 @@ const AboutUs = () => {
 
                     </div>
                 </div>
-                <div className='mt-[4rem] max-md:m-[10rem]'>
+                <div className="mt-10">
                     <div className='heading max-[630px]:text-[25px]'>
                         OUR VALUES
                     </div>
-                    <div className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed">
+                    <div className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed text-center max-w-4xl mx-auto px-4">
                         At YR IT SOLUTIONS, our values drive every decision and action — from internal collaboration to client partnerships. We are committed to ethics, integrity, and excellence, ensuring every solution we deliver is built with purpose and professionalism.
                     </div>
                     <div className='flex justify-center items-center gap-[1.5rem] max-[1236px]:gap-[0.4rem] max-[900px]:gap-[1.5rem] mt-10 animatedstats-main '>
@@ -236,7 +237,7 @@ const AboutUs = () => {
                             <div className='flex justify-start items-start w-[80%] mb-3'>
 
                                 <div className='h-[50px] w-[50px] max-[600px]:h-[40px] max-[600px]:w-[40px] text-left float-left'>
-                                    <img src={value.img} alt="" className='float-left text-left' />
+                                    <img src={value.img} alt="" className='w-[30px] h-[30px] float-left text-left max-[600px]:w-[24px] max-[600px]:h-[24px]' />
                                 </div>
                             </div>
                             <div className='flex flex-col justify-center items-center mb-3'>
@@ -255,7 +256,7 @@ const AboutUs = () => {
                         </div>))}
                     </div>
                 </div>
-                <div className='mt-[6rem] max-[640px]:mt-[-5rem]'>
+                <div className='mt-[6rem] max-[640px]:mt-[3rem]'>
                     <div className='heading'>
                         The Founding Member YR IT SOLUTIONS 
                     </div>
@@ -312,4 +313,4 @@ const AboutUs = () => {
     )
 }
 
-export default AboutUs
+export default AboutUs  
