@@ -18,32 +18,30 @@ const PricingMain = () => {
     ]
 
     const data = [
-        { name: "Highly vetted individual or teams", ok: 1 },
-        { name: "$$", ok: 1 },
-        { name: "Scale up and down at your own pace", ok: 1 },
-        { name: "We police process and standards", ok: 1 },
-        { name: "Aloa's data backed insights", ok: 1 },
-        { name: "Scale up and down at your own pace", ok: 1 },
-        { name: "Developer replacement guarantee", ok: 1 },
+  { name: "Vetted software developers and engineering teams", ok: 1 },
+  { name: "Transparent and scalable pricing structure", ok: 1 },
+  { name: "Flexible team scaling and onboarding process", ok: 1 },
+  { name: "Managed workflows and quality assurance", ok: 1 },
+  { name: "Data-backed performance insights and reporting", ok: 1 },
+  { name: "Developer replacement and continuity guarantee", ok: 1 }
     ]
     const data2 = [...data]
     const data3 = [
-        { name: "Find and qualify your own team", ok: 1 },
-        { name: "$$", ok: 1 },
-        { name: "Scaling means re-onboarding", ok: 0 },
-        { name: "You police their processes", ok: 0 },
-        { name: "It's you vs them", ok: 0 },
-        { name: "Scaling means re-onboarding", ok: 0 },
-        { name: "It's the same as starting over", ok: 0 },
+   { name: "Vetted software developers and engineering teams", ok: 1 },
+  { name: "Transparent and scalable pricing structure", ok: 1 },
+  { name: "Flexible team scaling and onboarding process", ok: 0 },
+  { name: "Managed workflows and quality assurance", ok: 0 },
+  { name: "Data-backed performance insights and reporting", ok: 0 },
+  { name: "Developer replacement and continuity guarantee", ok: 0 }
+    
     ]
     const data4 = [
-        { name: "Find and qualify your own team", ok: 1 },
-        { name: "$$$$", ok: 0 },
-        { name: "Scale without vetting again", ok: 0 },
-        { name: "You police their processes", ok: 0 },
-        { name: "It's you vs them", ok: 0 },
-        { name: "Scale without vetting again", ok: 0 },
-        { name: "It's the same as starting over", ok: 0 },
+{ name: "Vetted software developers and engineering teams", ok: 1 },
+  { name: "Transparent and scalable pricing structure", ok: 0 },
+  { name: "Flexible team scaling and onboarding process", ok: 0 },
+  { name: "Managed workflows and quality assurance", ok: 0 },
+  { name: "Data-backed performance insights and reporting", ok: 0 },
+  { name: "Developer replacement and continuity guarantee", ok: 0 }
     ]
 
     const allColumns = [data, data2, data3, data4]
@@ -55,26 +53,39 @@ const PricingMain = () => {
                 <Pricing />
 
                 {/* Contact CTA */}
-                <div className='radius flex mt-[2rem] items-center justify-center'>
-                    <Link to="/contactus" className='w-[865px]'>
-                        <div className='rounded-xl h-[84px] max-[500px]:h-[50px] w-full pricingM-sub bg-white max-[1000px]:bg-[var(--theme)] max-[1000px]:text-white max-[1000px]:font-semibold hover:bg-[var(--theme)] hover:text-white hover:cursor-pointer text-[#060336] text-center justify-center items-center flex text-[28px] max-[1000px]:hover:bg-white max-[1000px]:hover:text-[var(--theme)]'>
-                            Need a Customized Plan? Please Contact Us
-                        </div>
-                    </Link>
-                </div>
-
-                {/* Subheading */}
-                <div className='w-full flex justify-center items-center mt-6'>
-                    <div className='w-[718px] flex justify-center items-center'>
-                        <div className='pricingM-sub2 text-center'>
-                            We took the best parts of an agency and freelance marketplace
-                        </div>
+               <div className='radius flex mt-[2rem] items-center justify-center'>
+                 <Link to="/contactus" className='w-[320px] max-[500px]:w-[65%] max-[500px]:mx-auto'>
+                 <div className='rounded-xl h-[70px] w-full max-[500px]:h-auto max-[500px]:text-[14px] bg-[var(--theme)] text-white font-semibold text-[20px] flex flex-col justify-center items-center text-center 
+                   hover:bg-white hover:text-[var(--theme)] transition-all duration-300'>
+                   <span>Need a Customized Plan?</span>
+                   <span>Please Contact Us</span>
+                     </div>
+                     </Link>
                     </div>
-                </div>
+                {/* Subheading */}
+                {/* Subheading */}
+<div className='w-full flex justify-center items-center mt-5'>
+  <div className='w-[650px] flex justify-center items-center'>
+
+    {/* Mobile-only extra left text */}
+    <div className='hidden max-[768px]:block text-[14px] mr-2 text-gray-500'>
+    </div>
+
+    <div className='pricingM-sub2 text-center'>
+      We took the best parts of an agency and freelance marketplace
+    </div>
+
+    {/* Mobile-only extra right text */}
+    <div className='hidden max-[768px]:block text-[14px] ml-2 text-gray-500'>
+    </div>
+
+  </div>
+</div>
+
 
                 {/* Table with Horizontal Scroll for Mobile */}
-                <div className='mt-[4rem] overflow-x-auto w-full'>
-                    <div className='min-w-[1200px] w-fit mx-auto px-[3rem]'>
+                <div className='mt-[0rem] overflow-x-auto w-full'>
+                    <div className='min-w-[1200px] w-fit mx-auto px-[1rem]'>
                         <div className='flex gap-4'>
 
                             {allColumns.map((column, colIdx) => (
