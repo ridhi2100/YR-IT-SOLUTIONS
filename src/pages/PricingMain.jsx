@@ -81,8 +81,6 @@ const PricingMain = () => {
 
   </div>
 </div>
-
-
                 {/* Table with Horizontal Scroll for Mobile */}
                 <div className='mt-[0rem] overflow-x-auto w-full'>
                     <div className='min-w-[1200px] w-fit mx-auto px-[1rem]'>
@@ -92,7 +90,8 @@ const PricingMain = () => {
                                 <div
                                     key={colIdx}
                                     className={`w-[325px] pt-10 
-                                                ${colIdx !== 0 ? 'bg-white shadow-lg' : ''}`}
+                                                ${colIdx !== 0 ? 'bg-white shadow-lg' : ''}
+                                    ${colIdx !== 1 ? 'max-[768px]:hidden' : 'max-[768px]:block'}`}
                                 >
                                     <div className='text-center mb-[2.8rem] text-[20px] font-bold h-[24px]'>
                                         {headings[colIdx]}

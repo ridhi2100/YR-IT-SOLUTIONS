@@ -49,7 +49,7 @@ const AboutUs = () => {
                             <img src={IMG1} alt="" className='w-[400px] h-auto max-[600px]:w-[90%]' />
                         </div>
                         <div className='h-[431px] w-[468px] max-sm:w-[100%] max-[1100px]:ml-8 max-[780px]:ml-0'>
-                            <div className='About-sub-h max-[630px]:text-[25px] max-sm:text-center'>
+                            <div className='About-sub-h max-[630px]:text-[25px] max-sm:text-center w-full'>
                                 The Story of YR IT SOLUTIONS
                             </div>
                             <div className="min-[630px]:About-sub1 mt-[1.4rem] pricingM-subpart3 text-base max-[500px]:text-sm max-[400px]:text-xs">
@@ -82,7 +82,7 @@ const AboutUs = () => {
                     </div>
                     <div>
                         <div className='w-full flex justify-center'>
-                        <div className='About-sub-h max-[630px]:text-[25px] mt-[1rem] text-center'>
+                        <div className='<div className=About-sub-h max-[780px]:text-center max-[780px]:mx-auto max-[630px]:text-[25px] mt-[1rem]'>
                          The Story of YR IT SOLUTIONS
                              </div>
                         </div>

@@ -90,7 +90,7 @@ const ContactUs = () => {
                                         {/* LinkedIn */}
                                         <div 
                                             className='p-3 lg:p-4 rounded-full cursor-pointer hover:bg-white hover:bg-opacity-20 transition-all duration-300 transform hover:scale-110' 
-                                            onClick={() => {window.location.href="https://www.linkedin.com/in/yr-it-solutions-08892036b/"}}
+                                            onClick={() => {window.location.href="https://www.linkedin.com/in/yrit-solutions-755549371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}}
                                         >
                                             <FaLinkedin size={32} color="white" className='lg:w-10 lg:h-10' />
                                         </div>
