@@ -18,30 +18,30 @@ const PricingMain = () => {
     ]
 
     const data = [
-  { name: "Vetted software developers and engineering teams", ok: 1 },
-  { name: "Transparent and scalable pricing structure", ok: 1 },
-  { name: "Flexible team scaling and onboarding process", ok: 1 },
-  { name: "Managed workflows and quality assurance", ok: 1 },
-  { name: "Data-backed performance insights and reporting", ok: 1 },
-  { name: "Developer replacement and continuity guarantee", ok: 1 }
+  { name:"Expert software developers and dedicated engineering teams", ok: 1 },
+  { name: "Simple and transparent pricing with no hidden costs", ok: 1 },
+  { name: "Easily scale your team up or down based on project needs", ok: 1 },
+  { name: "Fully managed workflows with strong quality control", ok: 1 },
+  { name: "Detailed performance tracking and progress reports", ok: 1 },
+  { name: "Guaranteed developer support and quick replacements", ok: 1 }
     ]
     const data2 = [...data]
     const data3 = [
-   { name: "Vetted software developers and engineering teams", ok: 1 },
-  { name: "Transparent and scalable pricing structure", ok: 1 },
-  { name: "Flexible team scaling and onboarding process", ok: 0 },
-  { name: "Managed workflows and quality assurance", ok: 0 },
-  { name: "Data-backed performance insights and reporting", ok: 0 },
-  { name: "Developer replacement and continuity guarantee", ok: 0 }
+  { name: "Expert software developers and dedicated engineering teams", ok: 1 },
+  { name: "Simple and transparent pricing with no hidden costs", ok: 1 },
+  { name: "Basic team scaling options with limited onboarding help", ok: 0 },
+  { name: "Manual workflows with limited quality checks", ok: 0 },
+  { name: "Limited performance insights and reporting", ok: 0 },
+  { name: "No developer replacement guarantee", ok: 0 }
     
     ]
     const data4 = [
-{ name: "Vetted software developers and engineering teams", ok: 1 },
-  { name: "Transparent and scalable pricing structure", ok: 0 },
-  { name: "Flexible team scaling and onboarding process", ok: 0 },
-  { name: "Managed workflows and quality assurance", ok: 0 },
-  { name: "Data-backed performance insights and reporting", ok: 0 },
-  { name: "Developer replacement and continuity guarantee", ok: 0 }
+  { name: "Expert software developers and dedicated engineering teams", ok: 1 },
+  { name: "Basic pricing structure with limited flexibility", ok: 0 },
+  { name: "No support for team scaling or onboarding", ok: 0 },
+  { name: "No managed workflows or quality assurance", ok: 0 },
+  { name: "No access to performance reports or insights", ok: 0 },
+  { name: "No replacement or continuity support", ok: 0 }
     ]
 
     const allColumns = [data, data2, data3, data4]
@@ -132,7 +132,7 @@ const PricingMain = () => {
                                         <div className='text-[35px] max-[630px]:text-[25px] font-semibold'>
                                             <p>{item.heading}</p>
                                         </div>
-                                        <div className='text-justify pt-3 pricingM-subpart3 max-[600px]:text-center'>
+                                        <div className='text-center pt-3 pricingM-subpart3 max-[600px]:px-2'>
                                             {item.desc}
                                         </div>
                                         <div className='flex gap-6 flex-wrap justify-center'>

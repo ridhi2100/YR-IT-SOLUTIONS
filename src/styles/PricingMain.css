@@ -8,8 +8,8 @@
 
 .pricingM-sub2 {
     font-family: Space Grotesk;
-    font-size: 40px;
-    font-weight: 500;
+    font-size: 38px;
+    font-weight: 400;
     line-height: 64px;
     text-align: center;
     color: #060336
@@ -19,11 +19,12 @@
     display: flex;
 }
 .pricingM-subpart3{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 37.2px;
-    text-align: justified;
-    color: #6A6A6A;
+  font-family: 'Space Grotesk', sans-serif !important; /* Add !important to override */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 37.2px;
+  text-align: justified;
+  color: #6A6A6A;
 }
 @media (max-width: 630px) {
     .pricingM-subpart3{
