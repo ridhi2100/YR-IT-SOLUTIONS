@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from './pages/Home';
@@ -14,11 +15,12 @@ import Navbar from './pages/Navbar';
 import Form from './pages/Form';
 import MeetingForm from './pages/MeetingForm';
 import Services from './pages/Services';
-import { Routes, BrowserRouter, Route } from 'react-router-dom';
 import AboutUs from './pages/AboutUs';
 import TermsOfUse from './pages/TermsOfUse';
 import PrivacyPolicy from './pages/PrivacyPolicy';
-import React from 'react';
+import Portfolio from './pages/Portfolio'; 
+
+import { Routes, BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
   const [state, setState] = React.useState(0);
@@ -45,6 +47,7 @@ function App() {
             <Route path="/ourservices" element={<Services />} />
             <Route path="/pricing" element={<PricingMain />} />
             <Route path="/aboutus" element={<AboutUs />} />
+            <Route path="/portfolio" element={<Portfolio />} /> 
             <Route path="/form" element={<Form />} />
             <Route path="/meetingform" element={<MeetingForm />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />

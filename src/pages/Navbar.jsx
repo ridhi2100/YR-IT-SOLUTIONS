@@ -14,6 +14,7 @@ const Navbar = ({ state, setState, setshow, show }) => {
         if (loc === "/ourservices") setState(2);
         if (loc === "/pricing") setState(3);
         if (loc === "/contactus") setState(4);
+        if (loc === "/portfolio") setState(10);
     }, [loc])
     
     return (
@@ -89,6 +90,9 @@ const Navbar = ({ state, setState, setshow, show }) => {
                     <div className={`text-[16px] cursor-pointer ${state === 3 ? "active-color" : ""}`} onClick={() => setState(3)}><Link to="/pricing">
                         Pricing
                     </Link></div>
+                    <div className={`text-[16px] cursor-pointer ${state === 10 ? "active-color" : ""}`} onClick={() => setState(10)}>
+                        <Link to="/Portfolio">Portfolio</Link>
+                    </div>
                     <div className={`text-[16px] cursor-pointer ${state === 4 ? "active-color" : ""}`} onClick={() => setState(4)}><Link to="/contactus">
                         Contact
                     </Link></div>
