@@ -15,6 +15,7 @@ import AnimatedNumbers from "react-animated-numbers";
 import ContactUs from './ContactUs'
 import HaveAQues from './HaveAQues'
 import { Link } from 'react-router-dom'
+import Imageslide from './achivements';
 
 const AboutUs = () => {
     const data = [
@@ -185,27 +186,17 @@ const AboutUs = () => {
                         </div>
                     </div>
                 </div>
+                       <div className='w-full text-center mb-10 mt-20 px-4'>
+                <div className='About-sub-h text-[32px] max-[630px]:text-[25px]'>
+                  Founder's Achievements
+                 </div>
+</div>
 
-                        <div className='pt-[1rem] mt-[6rem] max-md:mt-[8rem]'>
-                        <div className='flex items-center justify-between max-w-[1200px] mx-auto px-4 gap-[2rem] max-[780px]:flex-col max-[780px]:items-center'>
-
-                        <div className='w-[50%] max-[780px]:w-[90%] flex justify-center'>
-                         <img src={IMG2} alt="" className='w-full max-w-[600px] h-auto' />
-                         </div>
-                       <div className='w-[50%] max-[780px]:w-[90%] max-[780px]:mt-6'>
-                    <div className='About-sub-h max-[630px]:text-[25px] text-left max-[780px]:text-center'>
-                          How Company Started
-                         </div>
-                     <div className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed text-left max-[780px]:text-center">
-                       YR IT SOLUTIONS began with a mission to break away from traditional service models and deliver real results.
-                       As a full-scale tech and marketing agency, we provide smart, tailored solutions that fuel growth and solve real challenges.
-                       We focus on impact-driven strategies for fast, lasting success.
-                    Let’s create something great — get in touch today.
-                      </div>
-                        </div> 
-                        </div>
-                       </div>
-
+                <div className='w-full flex justify-center items-center px-4'>
+               <div className='w-[80%] max-w-[800px]'>
+               <Imageslide />
+                 </div>
+                </div>
                 <div className="mt-10">
                     <div className='heading max-[630px]:text-[25px]'>
                         OUR VALUES

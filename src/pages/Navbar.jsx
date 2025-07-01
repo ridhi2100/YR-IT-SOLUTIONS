@@ -3,7 +3,7 @@ import Logo from '../assets/10logo-nobg.png'
 import "../styles/Navbar.css"
 import X from "../assets/Xlogo.png"
 import { Link } from 'react-router-dom'
-import { FiPhone } from 'react-icons/fi' // Import phone icon
+import { FiPhone } from 'react-icons/fi' 
 
 const Navbar = ({ state, setState, setshow, show }) => {
     const [loc, changeloc] = React.useState("/")
@@ -29,7 +29,7 @@ const Navbar = ({ state, setState, setshow, show }) => {
                         </Link>
                     </div>
                 </div>
-                {/* Rest of your component remains the same */}
+        
                 <div className='w-[69%] ml-[9%]  min-[640px]:hidden cursor-pointer relative'>
                     <div className='float-right' onClick={
                         () => {
@@ -68,6 +68,9 @@ const Navbar = ({ state, setState, setshow, show }) => {
                                     </Link></div>
                                     <div className={`cursor-pointer hover:text-[var(--theme)] ${state === 3 ? "active-color nav-boxes text-[22px]" : "text-[16px] nav-boxes-inactive"}`} onClick={() => { setState(3); setshow(false) }}><Link to="/pricing">
                                         Pricing
+                                    </Link></div>
+                                    <div className={`cursor-pointer hover:text-[var(--theme)] ${state === 10 ? "active-color nav-boxes text-[22px]" : "text-[16px] nav-boxes-inactive"}`} onClick={() => { setState(10); setshow(false) }}><Link to="/portfolio">
+                                        Portfolio
                                     </Link></div>
                                     <div className={`cursor-pointer hover:text-[var(--theme)] ${state === 4 ? "active-color nav-boxes text-[22px]" : "text-[16px] nav-boxes-inactive"}`} onClick={() => { setState(4); setshow(false) }}><Link to="/contactus">
                                         Contact
