@@ -61,7 +61,6 @@
 .About-sub-h{
      text-align: center;
 }
-
 @media ( max-width : 630px ) {
     .About-sub-h {
         font-size: 25px;

@@ -1,5 +1,5 @@
 import React from 'react'
-import IMG1 from '../assets/Image3.png'
+import IMG1 from '../assets/storyimg.jpg'
 import IMG2 from '../assets/Image4.png'
 import IMG3 from '../assets/circle-check.png'
 import IMG4 from '../assets/flag.png'
@@ -44,10 +44,11 @@ const AboutUs = () => {
     return (
         <>
             <div className='max-sm:w-full max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-center'>
+                {/* Desktop Section */}
                 <div className='max-[779px]:hidden max-[780px]:items-center h-[524px] max-[780px]:h-[100vh] max-[520px]:h-[70vh] pt-[5rem] max-[981px]:pt-1 max-[1100px]:w-[90%] max-[860px]:w-[97%]'>
                     <div className='h-[431px] flex justify-around items-center max-[780px]:flex-col max-[780px]:items-center'>
-                        <div className='h-[431px] w-[674px] max-[600px]:w-[98%] max-[600px]:h-[auto] min-[780px]:hidden'>
-                            <img src={IMG1} alt="" className='w-[400px] h-auto max-[600px]:w-[90%]' />
+                        <div className='h-[231px] w-[674px] max-[600px]:w-[98%] max-[600px]:h-[auto] min-[780px]:hidden'>
+                            <img src={IMG1} alt="" className="h-[220px] w-auto object-contain" />
                         </div>
                         <div className='h-[431px] w-[468px] max-sm:w-[100%] max-[1100px]:ml-8 max-[780px]:ml-0'>
                             <div className='About-sub-h font-bold max-[630px]:text-[25px] max-sm:text-center w-full'>
@@ -79,7 +80,7 @@ const AboutUs = () => {
                 {/* Mobile View Section */}
                 <div className='px-2 min-[780px]:hidden flex flex-col items-center text-center'>
                     <div className='max-[600px]:w-[98%] max-[600px]:h-[auto] min-[780px]:hidden flex justify-center'>
-                        <img src={IMG1} alt="" className='w-[400px] h-auto max-[600px]:w-[90%]' />
+                        <img src={IMG1} alt="" className='w-[400px] max-[600px]:w-[90%]' />
                     </div>
                     <div>
                         <div className='w-full flex justify-center'>
