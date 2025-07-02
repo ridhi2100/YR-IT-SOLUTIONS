@@ -2,6 +2,7 @@ import React from 'react';
 import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
 import project3 from '../assets/law.png';
+import project4 from '../assets/project4.png';
 import { Link } from 'react-router-dom';
 
 const projects = [
@@ -26,6 +27,13 @@ const projects = [
     link: "https://aggrawal-legal-firm-latest.vercel.app/",
     image: project3,
   },
+  {
+    title: "Law Firm – Legal Services Website",
+    description:
+      "Modern legal services website offering expert legal advice, case support, and consultation. Designed for law firms and attorneys to showcase services with a clean, professional look. Mobile-friendly & fast-loading.",
+    link: "https://law-v2.vercel.app/",
+    image: project4,
+  }
 ];
 
 const Portfolio = () => {
