@@ -5,23 +5,43 @@ import trainer1 from '../assets/trainer1.jpg';
 import trainer2 from '../assets/trainer2.jpg';
 import trainer3 from '../assets/trainer3.jpg';
 import cybersecurity from '../assets/cybersecurity.jpg';
+import blog from '../assets/blog.jpg';
 const BlogPage = () => {
   return (
     <div className="bg-white text-gray-800 font-sans px-4 py-10 md:px-20">
       {/* Section: Our Journey */}
-      <section className="mb-16">
-        <h2 className="text-6xl font-bold text-center mb-6 text-black">Our Journey</h2>
-        <p className="text-lg text-center max-w-4xl mx-auto">
-          YR IT SOLUTIONS started with a mission to deliver cutting-edge IT training programs that empower learners to succeed in the digital era. We recognized the gap between academic knowledge and real-world skills, and set out to bridge it with practical, hands-on learning experiences guided by industry veterans.
-        </p>
-        <p className="text-lg text-center max-w-4xl mx-auto mt-4">
-          From humble beginnings as a local initiative, we have grown into a leading online training provider specializing in domains like Web Development, UI/UX Design, Data Science, and Cybersecurity. With a focus on <strong>career-oriented learning, live project exposure, and personalized mentorship</strong>, we aim to equip every student with job-ready expertise.
-        </p>
-      </section>
+      <section className="mb-20">
+  <div className="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-20">
+    
+    {/* Text Content */}
+    <div className="md:w-1/2 text-center md:text-left md:ml-10">
+      <h2 className="text-5xl font-bold mb-6 ml-20 text-black">OUR JOURNEY</h2>
+      <p className="text-lg mb-4">
+        At <span className="font-semibold text-blue-800">YR IT SOLUTIONS</span>, At YR IT SOLUTIONS, our journey began with a simple yet powerful idea — to transform tech education into something truly practical, relevant, and career-focused.
+        What started as a modest initiative has now evolved into a trusted online learning platform, empowering thousands of learners across the country to gain the skills they need to succeed in today’s fast-paced digital world.
+      </p>
+      <p className="text-lg mb-4">
+        We’ve grown from a small initiative to a trusted online platform, helping thousands gain real-world skills in <span className="text-blue-800 font-medium">Web Development</span>, <span className="text-blue-800 font-medium">UI/UX Design</span>, <span className="text-blue-800 font-medium">Data Science</span>, and <span className="text-blue-800 font-medium">Cybersecurity</span>.
+      </p>
+      <p className="text-lg">
+        More than just training — we help learners become confident, job-ready professionals.
+      </p>
+    </div>
 
+    {/* Image */}
+    <div className="md:w-1/2">
+      <img
+        src={blog}
+        alt="Our Journey Illustration"
+        className="w-full max-w-md mx-auto"
+      />
+    </div>
+
+  </div>
+</section>
      {/* Section: Meet Our Trainers */}
 <section className="mb-20">
-  <h2 className="text-4xl font-bold text-center mb-10 text-blue-800">Meet Our Expert Trainers</h2>
+  <h2 className="text-5xl font-bold text-center mb-10 text-blue-800">Meet Our Expert Trainers</h2>
 
   <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
     
