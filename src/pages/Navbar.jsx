@@ -15,6 +15,7 @@ const Navbar = ({ state, setState, setshow, show }) => {
         if (loc === "/pricing") setState(3);
         if (loc === "/contactus") setState(4);
         if (loc === "/portfolio") setState(10);
+        if (loc === "/blog") setState(11);
     }, [loc])
     
     return (
@@ -75,6 +76,9 @@ const Navbar = ({ state, setState, setshow, show }) => {
                                     <div className={`cursor-pointer hover:text-[var(--theme)] ${state === 4 ? "active-color nav-boxes text-[22px]" : "text-[16px] nav-boxes-inactive"}`} onClick={() => { setState(4); setshow(false) }}><Link to="/contactus">
                                         Contact
                                     </Link></div>
+                                    <div className={`cursor-pointer hover:text-[var(--theme)] ${state === 11 ? "active-color nav-boxes text-[22px]" : "text-[16px] nav-boxes-inactive"}`} onClick={() => { setState(11); setshow(false) }}><Link to="/blog">
+                                        Blog
+                                    </Link></div>
                                 </div>
                             </div>
                         </div>
@@ -98,6 +102,9 @@ const Navbar = ({ state, setState, setshow, show }) => {
                     </div>
                     <div className={`text-[16px] cursor-pointer ${state === 4 ? "active-color" : ""}`} onClick={() => setState(4)}><Link to="/contactus">
                         Contact
+                    </Link></div>
+                    <div className={`text-[16px] cursor-pointer ${state === 11 ? "active-color" : ""}`} onClick={() => setState(4)}><Link to="/blog">
+                        Blog
                     </Link></div>
                 </div>
                 <div className='flex gap-[23px]'>

@@ -19,7 +19,7 @@ import AboutUs from './pages/AboutUs';
 import TermsOfUse from './pages/TermsOfUse';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Portfolio from './pages/Portfolio'; 
-
+import Blog from './pages/Blog';
 import { Routes, BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
@@ -52,6 +52,7 @@ function App() {
             <Route path="/meetingform" element={<MeetingForm />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/termsandconditions" element={<TermsOfUse />} />
+            <Route path="/blog" element={<Blog />} />
           </Routes>
         </main>
 
