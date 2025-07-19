@@ -10,21 +10,21 @@ const projects = [
     title: "Anshul Architect – Architecture Portfolio",
     description:
       "A modern, responsive architecture portfolio website designed for Anshul Architect. Built with performance and aesthetics in mind, this website showcases architectural projects with high-resolution visuals, intuitive navigation, and a clean layout. It emphasizes user experience and SEO-friendly practices such as fast load time, mobile optimization, and semantic HTML. Ideal for showcasing commercial and residential architecture services online.",
-    link: "https://anshularchitect.netlify.app/",
+    link: "https://anshularchitects.org/",
     image: project1,
   },
   {
     title: "Interior Design Studio – Creative Showcase",
     description:
       "A visually captivating website tailored for an interior design studio. This fully responsive platform highlights elegant layouts, premium design aesthetics, and smooth scrolling animations. It effectively presents services, past work, and client testimonials—making it an ideal tool for lead generation in the home decor and interior styling industry.",
-    link: "https://interior-design-green.vercel.app/",
+    link: "https://www.teekshagupta.com/",
     image: project2,
   },
   {
     title: "Law Firm – Legal Services Website",
     description:
       "A professional website designed for a legal consultancy. It features a formal color palette, structured layout, and clearly defined service sections. Includes appointment booking, service highlights, and client testimonials. Developed with accessibility and SEO optimization for ranking in legal service queries.",
-    link: "https://aggrawal-legal-firm-latest.vercel.app/",
+    link: "https://www.aggarwallegalfirm.com/",
     image: project3,
   },
   {
@@ -33,6 +33,7 @@ const projects = [
       "Modern legal services website offering expert legal advice, case support, and consultation. Designed for law firms and attorneys to showcase services with a clean, professional look. Mobile-friendly & fast-loading.",
     link: "https://law-v2.vercel.app/",
     image: project4,
+    
   }
 ];
 
