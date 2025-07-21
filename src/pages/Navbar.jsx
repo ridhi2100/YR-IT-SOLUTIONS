@@ -103,7 +103,7 @@ const Navbar = ({ state, setState, setshow, show }) => {
                     <div className={`text-[16px] cursor-pointer ${state === 4 ? "active-color" : ""}`} onClick={() => setState(4)}><Link to="/contactus">
                         Contact
                     </Link></div>
-                    <div className={`text-[16px] cursor-pointer ${state === 11 ? "active-color" : ""}`} onClick={() => setState(4)}><Link to="/blog">
+                    <div className={`text-[16px] cursor-pointer ${state === 11 ? "active-color" : ""}`} onClick={() => setState(11)}><Link to="/blog">
                         Blog
                     </Link></div>
                 </div>
