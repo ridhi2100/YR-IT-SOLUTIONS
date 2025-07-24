@@ -5,6 +5,12 @@ import trainer2 from "../assets/trainer2.jpg";
 import trainer3 from "../assets/trainer3.jpg";
 import cybersecurity from "../assets/cybersecurity.jpg";
 import blog from "../assets/blog.jpg";
+import webdev from "../assets/webdev.jpg";
+import cyber from "../assets/cyber.jpg";
+import uiux from "../assets/uiux.jpg";
+import ai from "../assets/ai.jpg";
+import cloud from "../assets/cloud.jpg";
+import datascience from "../assets/data-science.jpg";
 
 const BlogPage = () => {
   return (
@@ -54,6 +60,81 @@ const BlogPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Section: Tech Blogs */}
+<section className="mb-20 px-4 max-w-7xl mx-auto">
+  <div className="text-center mb-12">
+    <h2 className="text-4xl font-bold text-gray-800">Tech Blogs</h2>
+    <p className="text-gray-500 mt-2">Explore articles on Web Dev, Cybersecurity, UI/UX & more</p>
+  </div>
+
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    {[
+      {
+        title: "Getting Started with Web Development",
+        image: webdev,
+        desc: "Understand the basics of HTML, CSS, JavaScript and how the web works.",
+        link: "/blogs/web-development",
+      },
+      {
+        title: "Cybersecurity Basics for Beginners",
+        image: cyber,
+        desc: "Learn about threats, protection methods, and why cybersecurity is important.",
+        link: "/blogs/cybersecurity",
+      },
+      {
+        title: "UI/UX Principles Every Developer Should Know",
+        image: uiux,
+        desc: "Explore the fundamentals of user interface and experience design.",
+        link: "/blogs/uiux-design",
+      },
+      {
+        title: "Introduction to Artificial Intelligence",
+        image: ai,
+        desc: "Dive into the world of AI – from machine learning to neural networks and its real-world applications.",
+        link: "/blogs/artificial-intelligence",
+      },
+      {
+        title: "Cloud Computing Simplified",
+        image: cloud,
+        desc: "Understand how cloud platforms like AWS, Azure, and GCP power today’s digital world.",
+        link: "/blogs/cloud-computing",
+      },
+      {
+        title: "Getting Started with Data Science",
+        image: datascience,
+        desc: "Explore how data science transforms raw data into insights using statistics, Python, and machine learning.",
+        link: "/blogs/data-science",
+      },
+    ].map((blog, i) => (
+      <article
+        key={i}
+        className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transform hover:scale-[1.02] transition duration-300"
+      >
+        <img
+          src={blog.image}
+          alt={`Cover image for ${blog.title}`}
+          loading="lazy"
+          className="w-full h-52 object-cover hover:opacity-90 transition duration-200"
+        />
+        <div className="p-6">
+          <h3 className="text-xl font-semibold text-gray-800 mb-3 hover:text-blue-600 transition">
+            {blog.title}
+          </h3>
+          <p className="text-gray-600 text-sm mb-4">{blog.desc}</p>
+          <Link
+  to={blog.link}
+  className="inline-block text-blue-600 hover:text-blue-800 font-medium transition"
+>
+  Read More →
+</Link>
+
+        </div>
+      </article>
+    ))}
+  </div>
+</section>
+
 
       {/* Section: Meet Our Trainers */}
       <section className="mb-20">

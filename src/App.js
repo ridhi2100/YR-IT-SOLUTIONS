@@ -20,6 +20,8 @@ import TermsOfUse from './pages/TermsOfUse';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Portfolio from './pages/Portfolio'; 
 import Blog from './pages/Blog';
+import WebDevBlog from './pages/WebDevBlog'; // 👈 Make sure this path is correct
+
 import { Routes, BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
@@ -53,6 +55,8 @@ function App() {
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/termsandconditions" element={<TermsOfUse />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blogs/web-development" element={<WebDevBlog />} />
+
           </Routes>
         </main>
 
