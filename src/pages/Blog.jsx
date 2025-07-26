@@ -28,25 +28,29 @@ const BlogPage = () => {
               <span className="font-semibold text-blue-800">
                 YR IT SOLUTIONS
               </span>
-              , our journey began with a simple yet powerful idea — to transform
-              tech education into something truly practical, relevant, and
-              career-focused. What started as a modest initiative has now
-              evolved into a trusted online learning platform, empowering
-              thousands of learners across the country to gain the skills they
-              need to succeed in today’s fast-paced digital world.
+              , Our journey began with a clear purpose to tackle real-world
+              technological challenges with practical and scalable solutions.
+              What started as a small idea has grown into a trusted name in the
+              tech space, focused on delivering value through custom-built
+              software, automation, and digital transformation. We empower
+              clients to move faster, operate smarter, and stay ahead in an
+              ever-evolving digital landscape.
             </p>
             <p className="text-base sm:text-lg mb-4">
-              We’ve grown from a small initiative to a trusted online platform,
-              helping thousands gain real-world skills in{" "}
+              We’ve grown from a small initiative into a reliable tech solutions
+              provider, helping businesses overcome challenges through{" "}
               <span className="text-blue-800 font-medium">Web Development</span>
               , <span className="text-blue-800 font-medium">UI/UX Design</span>,{" "}
               <span className="text-blue-800 font-medium">Data Science</span>,
               and{" "}
               <span className="text-blue-800 font-medium">Cybersecurity</span>.
+              Our solutions are designed to be scalable, efficient, and
+              impact-driven.
             </p>
             <p className="text-base sm:text-lg">
-              More than just training — we help learners become confident,
-              job-ready professionals.
+              More than just building software we solve complex technical
+              problems, enhance digital experiences, and drive innovation across
+              industries.
             </p>
           </div>
 
@@ -62,79 +66,100 @@ const BlogPage = () => {
       </section>
 
       {/* Section: Tech Blogs */}
-<section className="mb-20 px-4 max-w-7xl mx-auto">
-  <div className="text-center mb-12">
-    <h2 className="text-4xl font-bold text-gray-800">Tech Blogs</h2>
-    <p className="text-gray-500 mt-2">Explore articles on Web Dev, Cybersecurity, UI/UX & more</p>
-  </div>
-
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-    {[
-      {
-        title: "Getting Started with Web Development",
-        image: webdev,
-        desc: "Understand the basics of HTML, CSS, JavaScript and how the web works.",
-        link: "/blogs/web-development",
-      },
-      {
-        title: "Cybersecurity Basics for Beginners",
-        image: cyber,
-        desc: "Learn about threats, protection methods, and why cybersecurity is important.",
-        link: "/blogs/cybersecurity",
-      },
-      {
-        title: "UI/UX Principles Every Developer Should Know",
-        image: uiux,
-        desc: "Explore the fundamentals of user interface and experience design.",
-        link: "/blogs/uiux-design",
-      },
-      {
-        title: "Introduction to Artificial Intelligence",
-        image: ai,
-        desc: "Dive into the world of AI – from machine learning to neural networks and its real-world applications.",
-        link: "/blogs/artificial-intelligence",
-      },
-      {
-        title: "Cloud Computing Simplified",
-        image: cloud,
-        desc: "Understand how cloud platforms like AWS, Azure, and GCP power today’s digital world.",
-        link: "/blogs/cloud-computing",
-      },
-      {
-        title: "Getting Started with Data Science",
-        image: datascience,
-        desc: "Explore how data science transforms raw data into insights using statistics, Python, and machine learning.",
-        link: "/blogs/data-science",
-      },
-    ].map((blog, i) => (
-      <article
-        key={i}
-        className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transform hover:scale-[1.02] transition duration-300"
-      >
-        <img
-          src={blog.image}
-          alt={`Cover image for ${blog.title}`}
-          loading="lazy"
-          className="w-full h-52 object-cover hover:opacity-90 transition duration-200"
-        />
-        <div className="p-6">
-          <h3 className="text-xl font-semibold text-gray-800 mb-3 hover:text-blue-600 transition">
-            {blog.title}
-          </h3>
-          <p className="text-gray-600 text-sm mb-4">{blog.desc}</p>
-          <Link
-  to={blog.link}
-  className="inline-block text-blue-600 hover:text-blue-800 font-medium transition"
->
-  Read More →
-</Link>
-
+      <section className="mb-20 px-4 max-w-7xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-6xl font-bold text-gray-800">
+            Tech Insights & Trends
+          </h2>
+          <p className="text-gray-500 mt-2 text-2xl">
+            Stay Updated on Cutting‑Edge Technology, Agentic Intelligence, and
+            Real-World Innovation.
+          </p>
         </div>
-      </article>
-    ))}
-  </div>
-</section>
 
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          {[
+            {
+              title: "Generative AI & Agentic Automation",
+              image: ai,
+              desc: "Explore how GenAI and AI agents are automating workflows, decision‑making, and enterprise productivity.",
+              link: "/blogs/agentic-ai",
+            },
+            {
+              title: "Vibe Coding: AI‑first Development",
+              image: webdev,
+              desc: "See how ‘vibe coding’—LLM-driven code generation—is transforming software prototyping and developer workflows.",
+              link: "/blogs/vibe-coding",
+            },
+            {
+              title: "Edge & 6G: Next‑Gen Connectivity",
+              image: cloud,
+              desc: "Understand edge computing powered by AI and the roadmap toward ultra‑fast, ultra‑low‑latency 6G networks.",
+              link: "/blogs/edge-6g-connectivity",
+            },
+            {
+              title: "Ethical Deepfake Security",
+              image: cyber,
+              desc: "Learn about deepfake threats, content trust, and emerging defenses in the age of synthetic media.",
+              link: "/blogs/deepfake-security",
+            },
+            {
+              title: "Robotics, Automation & Digital Twins",
+              image: ai,
+              desc: "Explore converging trends in robotics, robotics in AI‑powered manufacturing, simulation, and metaverse twins.",
+              link: "/blogs/automation-robotics",
+            },
+            {
+              title: "Sustainable & Green Infrastructure",
+              image: cloud,
+              desc: "How AI‑driven data centers, green computing, and sustainability tech are reshaping infrastructure design.",
+              link: "/blogs/green-tech-infrastructure",
+            },
+            {
+              title: "DevOps & Real‑time Observability",
+              image: webdev,
+              desc: "CI/CD pipelines, platform reliability, and AIOps strategies powering resilient, automated systems.",
+              link: "/blogs/devops-observability",
+            },
+            {
+              title: "Design Systems & Scalable UX",
+              image: uiux,
+              desc: "Create scalable, consistent user experiences with design systems, component libraries, and cross‑team collaboration.",
+              link: "/blogs/design-systems-scalable",
+            },
+            {
+              title: "Data Engineering vs AI/ML Strategy",
+              image: datascience,
+              desc: "Decide between data engineering, data science and AI model deployment strategies powering enterprise insights.",
+              link: "/blogs/data-engineering-ai",
+            },
+          ].map((blog, i) => (
+            <article
+              key={i}
+              className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transform hover:scale-[1.02] transition duration-300"
+            >
+              <img
+                src={blog.image}
+                alt={`Cover image for ${blog.title}`}
+                loading="lazy"
+                className="w-full h-52 object-cover hover:opacity-90 transition duration-200"
+              />
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-gray-800 mb-3 hover:text-blue-600 transition">
+                  {blog.title}
+                </h3>
+                <p className="text-gray-600 text-sm mb-4">{blog.desc}</p>
+                <Link
+                  to={blog.link}
+                  className="inline-block text-blue-600 hover:text-blue-800 font-medium transition"
+                >
+                  Read More →
+                </Link>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
 
       {/* Section: Meet Our Trainers */}
       <section className="mb-20">
