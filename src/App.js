@@ -20,8 +20,9 @@ import TermsOfUse from './pages/TermsOfUse';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Portfolio from './pages/Portfolio'; 
 import Blog from './pages/Blog';
-import WebDevBlog from './pages/WebDevBlog'; // 👈 Make sure this path is correct
-
+import WebDevBlog from './pages/WebDevBlog';
+import AdminLogin from './pages/AdminLogin';
+import AdminDashboard from './pages/AdminDashboard';
 import { Routes, BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
@@ -38,10 +39,8 @@ function App() {
         show={show} 
       />
       
-      {/* Main Content Container */}
       <div className={`min-h-screen flex flex-col ${show ? "h-screen overflow-hidden" : ""}`}>
-        
-        {/* Main Content Area */}
+     
         <main className="flex-1 w-full">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -56,6 +55,8 @@ function App() {
             <Route path="/termsandconditions" element={<TermsOfUse />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blogs/web-development" element={<WebDevBlog />} />
+            <Route path="/admin/login" element={<AdminLogin />} />
+            <Route path="/admin/dashboard" element={<AdminDashboard />} />
 
           </Routes>
         </main>
